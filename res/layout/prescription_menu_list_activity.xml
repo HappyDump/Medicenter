@@ -1,0 +1,37 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:orientation="vertical" android:background="#e2e2e2">
+
+    <ImageView
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:src="@drawable/header"
+            android:adjustViewBounds="true" android:id="@+id/headerImg"/>
+
+    <ListView
+            android:id="@+id/mListView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+    </ListView>
+
+    <Button
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Add Prescription"
+            android:id="@+id/addprescription"/>
+    <ListView
+            android:id="@android:id/list"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+    </ListView>
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:orientation="horizontal"
+                  android:layout_alignParentBottom="true"
+                  android:id="@+id/tabs"
+            >
+    </LinearLayout>
+
+</LinearLayout>

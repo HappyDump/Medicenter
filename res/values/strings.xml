@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Medicenter Physician</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="menu_settings">Settings</string>
+    <string name="login_title">Login Screen</string>
+    <string name="username">Username</string>
+    <string name="password">Password</string>
+    <string name="login">Login</string>
+    <string name="btn_patients">Patients List</string>
+    <string name="btn_messages">Messages</string>
+    <string name="btn_prescriptions">Prescriptions</string>
+    <string name="btn_schedule">Schedule</string>
+    <string name="msg_host">unknown-28-cf-e9-18-ae-8d.lan</string>
+    <string name="msg_port">5222</string>
+    <string name="msg_service">medicenter.org</string>
+</resources>

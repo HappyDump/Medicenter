@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent" android:background="#e2e2e2" android:clickable="true">
+
+    <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/headerImg" android:layout_gravity="center" android:adjustViewBounds="true"
+            android:src="@drawable/header"/>
+    <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:hint="Medication Name"
+            android:id="@+id/newPrescriptionMedication" android:layout_gravity="left|center_vertical"/>
+    <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="text"
+            android:hint="Duration"
+            android:text=""
+            android:id="@+id/newPrescriptionDuration" android:layout_gravity="left|center_vertical"/>
+    <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="text"
+            android:hint="Frequency"
+            android:text=""
+            android:id="@+id/newPrescriptionDose" android:layout_gravity="left|center_vertical"/>
+    <Button
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Create"
+            android:id="@+id/createPrescriptionBtn"/>
+</LinearLayout>

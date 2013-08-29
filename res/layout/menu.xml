@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="fill_parent"
+              android:layout_height="fill_parent"
+              android:orientation="vertical">
+    <ImageView
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:src="@drawable/header"
+            android:adjustViewBounds="true"/>
+    <LinearLayout android:background="@drawable/menu_bg"
+                  android:orientation="vertical"
+                  android:layout_height="wrap_content"
+                  android:layout_width="wrap_content"
+                  android:gravity="center_vertical">
+        <LinearLayout android:id="@+id/menu_l1"
+                      android:layout_height="fill_parent"
+                      android:layout_width="wrap_content"
+                      android:layout_gravity="center">
+
+            <!--  Patient List Button -->
+            <Button android:id="@+id/btn_patients_list"
+                    android:layout_height="wrap_content"
+                    android:layout_width="wrap_content"
+                    android:drawableTop="@drawable/btn_patients"
+                    android:text="@string/btn_patients"
+                    android:background="@android:color/transparent">
+            </Button>
+
+            <!--  Schedule Button -->
+            <Button android:id="@+id/btn_schedule"
+                    android:layout_height="wrap_content"
+                    android:layout_width="wrap_content"
+                    android:drawableTop="@drawable/btn_schedule"
+                    android:text="@string/btn_schedule"
+                    android:background="@android:color/transparent">
+            </Button>
+
+            <!--  Messages Button -->
+            <Button android:id="@+id/btn_messages"
+                    android:layout_height="wrap_content"
+                    android:layout_width="wrap_content"
+                    android:drawableTop="@drawable/btn_messages"
+                    android:text="@string/btn_messages"
+                    android:background="@android:color/transparent">
+            </Button>
+
+        </LinearLayout>
+        <LinearLayout android:layout_below="@id/menu_l1"
+                      android:id="@+id/menu_l2"
+                      android:layout_height="fill_parent"
+                      android:layout_width="wrap_content"
+                      android:layout_gravity="center"
+                      android:layout_marginTop="30dp">
+
+            <!--  Prescriptions Button -->
+            <Button android:id="@+id/btn_prescriptions"
+                    android:layout_height="wrap_content"
+                    android:layout_width="wrap_content"
+                    android:drawableTop="@drawable/btn_prescriptions"
+                    android:text="@string/btn_prescriptions"
+                    android:background="@android:color/transparent">
+            </Button>
+
+        </LinearLayout>
+    </LinearLayout>
+    <ImageView
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:background="@drawable/menu_separator"
+            />
+    <LinearLayout android:id="@+id/appointments"
+                  android:layout_width="wrap_content"
+                  android:layout_height="fill_parent"
+                  android:background="@drawable/next_appointments_list">
+        <ListView
+                android:id="@+id/sListView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+        </ListView>
+
+        <ListView
+                android:id="@android:id/list"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+        </ListView>
+    </LinearLayout>
+</LinearLayout>

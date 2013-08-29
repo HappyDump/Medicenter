@@ -1,0 +1,238 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:orientation="vertical"
+        >
+    <ImageView android:id="@+id/headerImg" android:layout_alignParentTop="true" android:src="@drawable/header"
+               android:layout_height="wrap_content" android:layout_width="wrap_content"
+               android:adjustViewBounds="true"/>
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/headerImg"
+                    android:background="@drawable/patient_details_page_design">
+        <LinearLayout android:id="@+id/infoContainer"
+                      android:layout_width="wrap_content"
+                      android:layout_height="match_parent"
+                      android:orientation="horizontal"
+                >
+            <LinearLayout android:id="@+id/labels"
+                          android:layout_height="wrap_content"
+                          android:layout_width="wrap_content"
+                          android:orientation="vertical" android:layout_gravity="center_vertical">
+                <!-- Name -->
+                <TextView android:id="@+id/name"
+                          android:layout_width="wrap_content"
+                          android:layout_height="wrap_content"
+                          android:layout_alignParentTop="true"
+                          android:layout_alignParentLeft="true"
+                          android:textSize="10dip"
+                          android:paddingLeft="15dip"
+                          android:text="Name : "
+                          android:textColor="#000000"
+                        />
+
+                <TextView android:id="@+id/fName"
+                          android:layout_width="wrap_content"
+                          android:layout_height="wrap_content"
+                          android:layout_below="@id/name"
+                          android:textSize="10dip"
+                          android:paddingLeft="15dip"
+                          android:textColor="#000000"
+                          android:text="Surname : "
+                        />
+
+                <TextView android:id="@+id/email"
+                          android:layout_width="wrap_content"
+                          android:layout_height="wrap_content"
+                          android:layout_below="@id/fName"
+                          android:textSize="10dip"
+                          android:paddingLeft="15dip"
+                          android:text="Email : "
+                          android:textColor="#000000"
+                        />
+
+                <TextView android:id="@+id/age"
+                          android:layout_width="wrap_content"
+                          android:layout_height="wrap_content"
+                          android:textSize="10dip"
+                          android:paddingLeft="15dip"
+                          android:text="Age : "
+                          android:textColor="#000000"
+                          android:layout_below="@+id/email"/>
+                <TextView android:id="@+id/street"
+                          android:layout_width="wrap_content"
+                          android:layout_height="wrap_content"
+                          android:textSize="10dip"
+                          android:paddingLeft="15dip"
+                          android:text="Street : "
+                          android:textColor="#000000"
+                          android:layout_below="@+id/age"/>
+                <TextView android:id="@+id/streetNo"
+                          android:layout_width="wrap_content"
+                          android:layout_height="wrap_content"
+                          android:textSize="10dip"
+                          android:paddingLeft="15dip"
+                          android:text="Street No : "
+                          android:textColor="#000000"
+                          android:layout_below="@+id/street"/>
+                <TextView android:id="@+id/city"
+                          android:layout_width="wrap_content"
+                          android:layout_height="wrap_content"
+                          android:textSize="10dip"
+                          android:paddingLeft="15dip"
+                          android:text="City : "
+                          android:textColor="#000000"
+                          android:layout_below="@+id/streetNo"/>
+                <TextView android:id="@+id/country"
+                          android:layout_width="wrap_content"
+                          android:layout_height="wrap_content"
+                          android:textSize="10dip"
+                          android:paddingLeft="15dip"
+                          android:text="Country : "
+                          android:textColor="#000000"
+                          android:layout_below="@+id/city"/>
+                <TextView android:id="@+id/desc"
+                          android:layout_width="wrap_content"
+                          android:layout_height="wrap_content"
+                          android:textSize="10dip"
+                          android:paddingLeft="15dip"
+                          android:text="Description : "
+                          android:layout_below="@+id/country"
+                          android:textColor="#000000"
+                        />
+
+            </LinearLayout>
+            <LinearLayout android:id="@+id/data"
+                          android:layout_height="wrap_content"
+                          android:layout_width="wrap_content"
+                          android:orientation="vertical" android:layout_gravity="center_vertical"
+                    >
+
+                <TextView android:id="@+id/nameFill"
+                          android:layout_width="wrap_content"
+                          android:layout_height="wrap_content"
+                          android:textSize="10dip"
+                          android:paddingLeft="15dip"
+                          android:text="Name to Fill"
+                          android:textColor="#000000"
+                        />
+                <TextView android:id="@+id/fnameFill"
+                          android:layout_width="wrap_content"
+                          android:layout_height="wrap_content"
+                          android:textSize="10dip"
+                          android:paddingLeft="15dip"
+                          android:text="Fname to fill"
+                          android:textColor="#000000"
+                        />
+                <TextView android:id="@+id/emailFill"
+                          android:layout_width="wrap_content"
+                          android:layout_height="wrap_content"
+                          android:textSize="10dip"
+                          android:paddingLeft="15dip"
+                          android:text="Email to fill"
+                          android:layout_below="@+id/fName"
+                          android:textColor="#000000"
+                          android:layout_toRightOf="@+id/email"/>
+                <TextView android:id="@+id/ageFill"
+                          android:layout_width="wrap_content"
+                          android:layout_height="wrap_content"
+                          android:textSize="10dip"
+                          android:paddingLeft="15dip"
+                          android:text="Age to fill"
+                          android:textColor="#000000"/>
+
+
+                <TextView android:id="@+id/streetFill"
+                          android:layout_width="wrap_content"
+                          android:layout_height="wrap_content"
+                          android:textSize="10dip"
+                          android:paddingLeft="15dip"
+                          android:text="Street to fill"
+                          android:textColor="#000000"/>
+                <TextView android:id="@+id/streetNoFill"
+                          android:layout_width="wrap_content"
+                          android:layout_height="wrap_content"
+                          android:textSize="10dip"
+                          android:paddingLeft="15dip"
+                          android:text="Street No to Fill"
+                          android:textColor="#000000"/>
+                <TextView android:id="@+id/cityFill"
+                          android:layout_width="wrap_content"
+                          android:layout_height="wrap_content"
+                          android:textSize="10dip"
+                          android:paddingLeft="15dip"
+                          android:text="city to fill"
+                          android:textColor="#000000"/>
+                <TextView android:id="@+id/countryFill"
+                          android:layout_width="wrap_content"
+                          android:layout_height="wrap_content"
+                          android:textSize="10dip"
+                          android:paddingLeft="15dip"
+                          android:text="country to fill"
+                          android:textColor="#000000"/>
+                <TextView android:id="@+id/descFill"
+                          android:layout_width="wrap_content"
+                          android:layout_height="wrap_content"
+                          android:textSize="10dip"
+                          android:paddingLeft="15dip"
+                          android:text="Desc to fill"
+                          android:textColor="#000000"
+                          android:layout_gravity="center"/>
+            </LinearLayout>
+        </LinearLayout>
+        <ImageView
+                android:id="@+id/icon"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentRight="true"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_launcher"
+                android:layout_marginTop="60dip"
+                android:layout_marginRight="60dip"
+                android:textColor="#000000"
+                />
+
+    </RelativeLayout>
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:orientation="horizontal"
+                  android:layout_alignParentBottom="true"
+                  android:id="@+id/tabs">
+
+        <Button
+                android:id="@+id/general_tab"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="generaliti"
+                android:layout_margin="10dip"
+                android:layout_weight="1"
+                android:background="#00000000"
+                android:textColor="#00000000"
+                />
+        <Button
+                android:id="@+id/prescriptions_tab"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Prescript"
+                android:layout_margin="10dip"
+                android:layout_weight="1"
+                android:background="#00000000"
+                android:textColor="#00000000"
+                />
+        <Button
+                android:id="@+id/specificities_tab"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Specifica"
+                android:layout_margin="10dip"
+                android:layout_weight="1"
+                android:background="#00000000"
+                android:textColor="#00000000"
+                />
+
+    </LinearLayout>
+</LinearLayout>

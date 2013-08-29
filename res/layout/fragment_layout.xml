@@ -1,0 +1,21 @@
+<com.medicenter.medicenterphysician.DashboardLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                                                    android:layout_width="fill_parent"
+                                                    android:layout_height="fill_parent" android:layout_weight="1"
+                                                    android:background="@drawable/menu_pagedesign">
+    <!--  Patient List Button -->
+    <Button android:id="@+id/btn_patients_list" android:drawableTop="@drawable/btn_patients"
+            android:text="@string/btn_patients"></Button>
+
+    <!--  Friends Button -->
+    <Button android:id="@+id/btn_schedule" android:drawableTop="@drawable/btn_schedule"
+            android:text="@string/btn_schedule"></Button>
+
+    <!--  Messages Button -->
+    <Button android:id="@+id/btn_messages" android:drawableTop="@drawable/btn_messages"
+            android:text="@string/btn_messages"></Button>
+
+    <!--  Places Button -->
+    <Button android:id="@+id/btn_prescriptions" android:drawableTop="@drawable/btn_prescriptions"
+            android:text="@string/btn_prescriptions"></Button>
+
+</com.medicenter.medicenterphysician.DashboardLayout>

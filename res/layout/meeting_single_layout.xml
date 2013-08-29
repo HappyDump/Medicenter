@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:orientation="vertical"
+        >
+    <ImageView android:id="@+id/headerImg" android:layout_alignParentTop="true" android:src="@drawable/header"
+               android:layout_height="wrap_content" android:layout_width="wrap_content"
+               android:adjustViewBounds="true"/>
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/headerImg"
+                    android:background="@drawable/patient_details_page_design">
+
+        <!-- Name -->
+        <TextView android:id="@+id/meetingDate"
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:layout_alignParentTop="true"
+                  android:layout_alignParentLeft="true"
+                  android:textSize="15dip"
+                  android:paddingLeft="15dip"
+                  android:text="Meeting date : "
+                  android:layout_marginTop="130dip"
+                  android:textColor="#000000"
+                />
+
+        <TextView android:id="@+id/meetingObs"
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:layout_below="@id/meetingDate"
+                  android:textSize="15dip"
+                  android:paddingLeft="15dip"
+                  android:textColor="#000000"
+                  android:text="Meeting Observations : "
+                />
+
+        <ImageView
+                android:id="@+id/icon"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentRight="true"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_launcher"
+                android:layout_marginTop="60dip"
+                android:layout_marginRight="60dip"
+                android:textColor="#000000"
+                />
+
+        <TextView android:id="@+id/meetingDateFill"
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:textSize="15dip"
+                  android:paddingLeft="15dip"
+                  android:text="Meeting Date to fill"
+                  android:textColor="#000000"
+                  android:layout_toRightOf="@+id/meetingDate"
+                  android:layout_alignParentTop="false" android:layout_alignParentLeft="false"
+                  android:layout_alignParentBottom="false" android:layout_above="@+id/meetingObs"/>
+        <TextView android:id="@+id/meetingObsFill"
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:textSize="15dip"
+                  android:paddingLeft="15dip"
+                  android:text="Meeting obs to fill"
+                  android:layout_below="@+id/meetingDateFill"
+                  android:textColor="#000000"
+                  android:layout_toRightOf="@+id/meetingObs"/>
+        <Button
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="Edit Meeting"
+                android:id="@+id/editMeeting"
+                android:layout_toRightOf="@+id/meetingObs"
+                android:paddingLeft="15dip"
+                android:layout_alignParentLeft="true" android:layout_below="@+id/meetingObs"/>
+        <Button
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="Prescriptions"
+                android:id="@+id/prescriptions"
+                android:layout_toRightOf="@+id/meetingObs"
+                android:paddingLeft="15dip"
+                android:layout_alignParentLeft="true" android:layout_below="@+id/editMeeting"/>
+    </RelativeLayout>
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:orientation="horizontal"
+                  android:layout_alignParentBottom="true"
+                  android:id="@+id/tabs"
+            >
+
+        <Button
+                android:id="@+id/general_tab"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="generaliti"
+                android:layout_margin="10dip"
+                android:layout_weight="1"
+                android:background="#00000000"
+                android:textColor="#00000000"
+                />
+        <Button
+                android:id="@+id/prescriptions_tab"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Prescript"
+                android:layout_margin="10dip"
+                android:layout_weight="1"
+                android:background="#00000000"
+                android:textColor="#00000000"
+                />
+        <Button
+                android:id="@+id/specificities_tab"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Specifica"
+                android:layout_margin="10dip"
+                android:layout_weight="1"
+                android:background="#00000000"
+                android:textColor="#00000000"
+                />
+
+    </LinearLayout>
+</LinearLayout>

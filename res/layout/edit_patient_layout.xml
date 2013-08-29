@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content">
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                  android:orientation="vertical"
+                  android:layout_width="match_parent"
+                  android:layout_height="wrap_content" android:background="#e2e2e2" android:clickable="true">
+
+        <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/headerImg" android:layout_gravity="center" android:adjustViewBounds="true"
+                android:src="@drawable/header"/>
+        <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="text"
+                android:text="Patient Name"
+                android:id="@+id/editPatientName" android:layout_gravity="left|center_vertical"/>
+        <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="text"
+                android:text="Patient Surname"
+                android:id="@+id/editPatientSurname" android:layout_gravity="left|center_vertical"/>
+        <EditText
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="Patient Email"
+                android:id="@+id/editPatientEmail" android:inputType="textEmailAddress"
+                android:layout_gravity="center_vertical|left"/>
+        <EditText
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Patient Age"
+                android:id="@+id/editPatientAge" android:layout_gravity="center_vertical|left"
+                android:inputType="number"/>
+        <EditText
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="Patient Street"
+                android:id="@+id/editPatientStreet" android:inputType="text"
+                android:layout_gravity="center_vertical|left"/>
+        <EditText
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="Patient Street Number"
+                android:id="@+id/editPatientStreetNumber" android:inputType="number"
+                android:layout_gravity="center_vertical|left"/>
+        <EditText
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="Patient City"
+                android:id="@+id/editPatientCity" android:inputType="text"
+                android:layout_gravity="center_vertical|left"/>
+        <EditText
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="Patient Country"
+                android:id="@+id/editPatientCountry" android:inputType="text"
+                android:layout_gravity="center_vertical|left"/>
+        <EditText
+                android:layout_width="match_parent"
+                android:layout_height="108dp"
+                android:inputType="text"
+                android:text="Patient Desc"
+                android:id="@+id/editPatientDesc" android:layout_gravity="left|center_vertical"
+                android:layout_weight="0.36"/>
+        <Button
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="Update"
+                android:id="@+id/updatePatientBtn"/>
+    </LinearLayout>
+</ScrollView>
