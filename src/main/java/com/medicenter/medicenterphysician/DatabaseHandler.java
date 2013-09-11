@@ -16,6 +16,7 @@ import java.util.List;
  * Time: 11:18
  * To change this template use File | Settings | File Templates.
  */
+
 public class DatabaseHandler extends SQLiteOpenHelper {
     private static final int DATABASE_VERSION = 6;
     private static final String DATABASE_NAME = "Medicenter";
@@ -33,6 +34,10 @@ public class DatabaseHandler extends SQLiteOpenHelper {
     private static final String KEY_COUNTRY = "country";
     private static final String KEY_CITY = "city";
     private static final String KEY_DESC = "desc";
+    private static final String KEY_GENDER = "gender";
+    private static final String KEY_BPLACE = "birthplace";
+    private static final String KEY_PHONE = "phone";
+    private static final String KEY_SSN = "ssn";
 
     private static final String KEY_MEETING_ID = "id";
     private static final String KEY_MEETING_PATIENTID = "patientid";
@@ -88,6 +93,10 @@ public class DatabaseHandler extends SQLiteOpenHelper {
         values.put(KEY_STREET, patient.getStreet());
         values.put(KEY_STREETNO, patient.getStreetNo());
         values.put(KEY_DESC, patient.getDesc());
+        values.put(KEY_GENDER, patient.getGender());
+        values.put(KEY_BPLACE, patient.getBirthPlace());
+        values.put(KEY_PHONE, patient.getPhone());
+        values.put(KEY_SSN, patient.getSsn());
 
         db.insert(TABLE_PATIENTS, null, values);
         db.close();

@@ -5,15 +5,19 @@ import android.os.Parcelable;
 
 public class Patient implements Parcelable {
     int id;
+    String gender;
     String name;
     String fName;
     String email;
     String age;
+    String birthPlace;
     String country;
     String city;
     String street;
     String streetNo;
     String desc;
+    String phone;
+    String ssn;
 
     /**
      * Class constructor specifying all parameters.
@@ -40,7 +44,7 @@ public class Patient implements Parcelable {
     }
 
     public Patient(String name, String fName, String email, String age, String city, String country,
-                   String street, String streetNo, String desc) {
+                   String street, String streetNo, String desc, String gender, String birthPlace, String phone, String ssn) {
         super();
         this.name = name;
         this.fName = fName;
@@ -51,6 +55,10 @@ public class Patient implements Parcelable {
         this.street = street;
         this.streetNo = streetNo;
         this.desc = desc;
+        this.gender = gender;
+        this.birthPlace = birthPlace;
+        this.phone = phone;
+        this.ssn = ssn;
     }
 
     /**
@@ -70,6 +78,10 @@ public class Patient implements Parcelable {
         street = source.readString();
         streetNo = source.readString();
         desc = source.readString();
+        gender = source.readString();
+        birthPlace = source.readString();
+        phone = source.readString();
+        ssn = source.readString();
     }
 
     public Patient(Patient source) {
@@ -83,6 +95,10 @@ public class Patient implements Parcelable {
         street = source.getStreet();
         streetNo = source.getStreetNo();
         desc = source.getDesc();
+        gender = source.getGender();
+        birthPlace = source.getBirthPlace();
+        phone = source.getPhone();
+        ssn = source.getSsn();
     }
 
     /**
@@ -101,6 +117,10 @@ public class Patient implements Parcelable {
         this.street = "";
         this.streetNo = "";
         this.desc = "";
+        this.gender = "";
+        this.phone = "";
+        this.birthPlace = "";
+        this.ssn = "";
     }
 
     public String getEmail() {
@@ -190,6 +210,38 @@ public class Patient implements Parcelable {
         return 0;
     }
 
+    public String getGender() {
+        return gender;
+    }
+
+    public void setGender(String gender) {
+        this.gender = gender;
+    }
+
+    public String getBirthPlace() {
+        return birthPlace;
+    }
+
+    public void setBirthPlace(String birthPlace) {
+        this.birthPlace = birthPlace;
+    }
+
+    public String getPhone() {
+        return phone;
+    }
+
+    public void setPhone(String phone) {
+        this.phone = phone;
+    }
+
+    public String getSsn() {
+        return ssn;
+    }
+
+    public void setSsn(String ssn) {
+        this.ssn = ssn;
+    }
+
     /**
      * Serializes a Patient to a Parcel.
      *
@@ -209,6 +261,10 @@ public class Patient implements Parcelable {
         arg0.writeString(street);
         arg0.writeString(streetNo);
         arg0.writeString(desc);
+        arg0.writeString(gender);
+        arg0.writeString(birthPlace);
+        arg0.writeString(phone);
+        arg0.writeString(ssn);
     }
 
     public static final Parcelable.Creator CREATOR = new Parcelable.Creator() {

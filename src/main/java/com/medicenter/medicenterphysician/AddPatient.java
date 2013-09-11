@@ -4,9 +4,8 @@ import android.app.Activity;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
-import android.widget.Button;
-import android.widget.EditText;
-import android.widget.ImageView;
+import android.widget.*;
+import android.widget.AdapterView.OnItemSelectedListener;
 
 /**
  * Created with IntelliJ IDEA.
@@ -14,7 +13,7 @@ import android.widget.ImageView;
  * Date: 18/06/13
  * Time: 15:09
  */
-public class AddPatient extends Activity {
+public class AddPatient extends Activity implements OnItemSelectedListener {
 
     EditText pName;
     EditText pSurname;
@@ -25,6 +24,8 @@ public class AddPatient extends Activity {
     EditText pStreet;
     EditText pStreetNo;
     EditText pDesc;
+    Spinner pGender;
+    String gender;
     DatabaseHandler dbh;
     ImageView imgView;
 
@@ -42,6 +43,11 @@ public class AddPatient extends Activity {
         pStreet = (EditText) findViewById(R.id.newPatientStreet);
         pStreetNo = (EditText) findViewById(R.id.newPatientStreetNumber);
         pDesc = (EditText) findViewById(R.id.newPatientDesc);
+        pGender = (Spinner) findViewById(R.id.newPatientCivilitySpinner);
+
+        ArrayAdapter<CharSequence> adapter = ArrayAdapter.createFromResource(this, R.array.gender_array, android.R.layout.simple_spinner_item);
+        adapter.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
+        pGender.setAdapter(adapter);
 
         Button createBtn = (Button) findViewById(R.id.createPatientBtn);
 
@@ -79,8 +85,20 @@ public class AddPatient extends Activity {
             patient.setStreetNo(buttonStreetNo);
             patient.setfName(buttonSurName);
             dbh.addPatient(patient);
+
             Intent i = new Intent(getApplicationContext(), PatientListActivity.class);
             startActivity(i);
         }
     };
+
+    public void onItemSelected(AdapterView<?> parent, View view,
+                               int pos, long id) {
+        gender = parent.getItemAtPosition(pos).toString();
+    }
+
+    public void onNothingSelected(AdapterView<?> parent) {
+        gender = null;
+    }
+
+    ;
 }

@@ -13,6 +13,16 @@
                 android:layout_height="wrap_content"
                 android:id="@+id/headerImg" android:layout_gravity="center" android:adjustViewBounds="true"
                 android:src="@drawable/header"/>
+        <Spinner
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/newPatientCivilitySpinner"
+                android:layout_gravity="left|center_vertical"
+                android:spinnerMode="dialog"
+                android:visibility="visible"
+                android:prompt="@string/gender_prompt"
+                android:entries="@array/gender_array"
+                />
         <EditText
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -37,10 +47,15 @@
         <EditText
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:hint="Patient Age"
+                android:hint="Patient Birth Date"
                 android:text=""
                 android:id="@+id/newPatientAge" android:layout_gravity="center_vertical|left"
-                android:inputType="numberSigned"/>
+                android:inputType="date"/>
+        <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Patient Birth Place"
+                android:id="@+id/NewPatientBirthplace" android:layout_gravity="left|center_vertical"/>
         <EditText
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -63,10 +78,17 @@
         <EditText
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:hint="Patient Country"
+                android:hint="Patient Zip Code"
                 android:text=""
                 android:id="@+id/newPatientCountry" android:layout_gravity="center_vertical|left"
                 android:inputType="text"/>
+        <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Patient Phone Number"
+                android:text=""
+                android:id="@+id/newPatientPhone" android:layout_gravity="center_vertical|left"
+                android:inputType="phone"/>
         <EditText
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"

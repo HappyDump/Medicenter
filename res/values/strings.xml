@@ -15,4 +15,7 @@
     <string name="msg_host">unknown-28-cf-e9-18-ae-8d.lan</string>
     <string name="msg_port">5222</string>
     <string name="msg_service">medicenter.org</string>
+    <string name="gender_prompt">Patient Gender</string>
+
+
 </resources>
