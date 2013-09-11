@@ -54,8 +54,9 @@
         <EditText
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Patient Birth Place"
-                android:id="@+id/NewPatientBirthplace" android:layout_gravity="left|center_vertical"/>
+                android:hint="Patient Birth Place"
+                android:text=""
+                android:id="@+id/newPatientBirthplace" android:layout_gravity="left|center_vertical"/>
         <EditText
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -96,6 +97,14 @@
                 android:hint="Patient Desc"
                 android:text=""
                 android:id="@+id/newPatientDesc" android:layout_gravity="left|center_vertical"
+                />
+        <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="text"
+                android:hint="Patient Social Security Number"
+                android:text=""
+                android:id="@+id/newPatientSsn" android:layout_gravity="left|center_vertical"
                 />
         <Button
                 android:layout_width="fill_parent"

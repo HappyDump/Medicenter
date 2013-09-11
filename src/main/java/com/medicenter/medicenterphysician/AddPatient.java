@@ -24,6 +24,9 @@ public class AddPatient extends Activity implements OnItemSelectedListener {
     EditText pStreet;
     EditText pStreetNo;
     EditText pDesc;
+    EditText pPhone;
+    EditText pSsn;
+    EditText pBplace;
     Spinner pGender;
     String gender;
     DatabaseHandler dbh;
@@ -43,6 +46,9 @@ public class AddPatient extends Activity implements OnItemSelectedListener {
         pStreet = (EditText) findViewById(R.id.newPatientStreet);
         pStreetNo = (EditText) findViewById(R.id.newPatientStreetNumber);
         pDesc = (EditText) findViewById(R.id.newPatientDesc);
+        pPhone = (EditText) findViewById(R.id.newPatientPhone);
+        pBplace = (EditText) findViewById(R.id.newPatientBirthplace);
+        pSsn = (EditText) findViewById(R.id.newPatientSsn);
         pGender = (Spinner) findViewById(R.id.newPatientCivilitySpinner);
 
         ArrayAdapter<CharSequence> adapter = ArrayAdapter.createFromResource(this, R.array.gender_array, android.R.layout.simple_spinner_item);
@@ -73,6 +79,10 @@ public class AddPatient extends Activity implements OnItemSelectedListener {
             String buttonCity = pCity.getText().toString();
             String buttonStreet = pStreet.getText().toString();
             String buttonStreetNo = pStreetNo.getText().toString();
+            String buttonGender = gender;
+            String buttonPhone = pPhone.getText().toString();
+            String buttonBplace = pBplace.getText().toString();
+            String buttonSsn = pSsn.getText().toString();
             String buttonDesc = pDesc.getText().toString();
             Patient patient = new Patient();
             patient.setDesc(buttonDesc);
@@ -84,6 +94,10 @@ public class AddPatient extends Activity implements OnItemSelectedListener {
             patient.setStreet(buttonStreet);
             patient.setStreetNo(buttonStreetNo);
             patient.setfName(buttonSurName);
+            patient.setGender(buttonGender);
+            patient.setPhone(buttonPhone);
+            patient.setBirthPlace(buttonBplace);
+            patient.setSsn(buttonSsn);
             dbh.addPatient(patient);
 
             Intent i = new Intent(getApplicationContext(), PatientListActivity.class);
