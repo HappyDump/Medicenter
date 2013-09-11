@@ -111,7 +111,7 @@ public class AddPatient extends Activity implements OnItemSelectedListener {
     }
 
     public void onNothingSelected(AdapterView<?> parent) {
-        gender = null;
+        gender = "Male";
     }
 
     ;
