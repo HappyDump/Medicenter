@@ -38,6 +38,10 @@ public class PatientActivity extends Activity {
         TextView city = (TextView) findViewById(R.id.cityFill);
         TextView country = (TextView) findViewById(R.id.countryFill);
         TextView desc = (TextView) findViewById(R.id.descFill);
+        TextView gen = (TextView) findViewById(R.id.genderFill);
+        TextView bPlace = (TextView) findViewById(R.id.bPlaceFill);
+        TextView phone = (TextView) findViewById(R.id.phoneFill);
+        TextView ssn = (TextView) findViewById(R.id.ssnFill);
         b = this.getIntent().getExtras();
 
         if (b != null) {
@@ -51,6 +55,10 @@ public class PatientActivity extends Activity {
             city.setText(p.city);
             country.setText(p.country);
             desc.setText(p.desc);
+            gen.setText(p.gender);
+            bPlace.setText(p.birthPlace);
+            phone.setText(p.phone);
+            ssn.setText(p.ssn);
         }
         btn_general = (Button) findViewById(R.id.general_tab);
         btn_specificities = (Button) findViewById(R.id.specificities_tab);

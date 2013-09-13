@@ -29,7 +29,7 @@ public class Patient implements Parcelable {
      */
 
     public Patient(int id, String name, String fName, String email, String age, String city, String country,
-                   String street, String streetNo, String desc) {
+                   String street, String streetNo, String desc, String gender, String birthPlace, String phone, String ssn) {
         super();
         this.id = id;
         this.name = name;
@@ -41,6 +41,10 @@ public class Patient implements Parcelable {
         this.street = street;
         this.streetNo = streetNo;
         this.desc = desc;
+        this.gender = gender;
+        this.birthPlace = birthPlace;
+        this.phone = phone;
+        this.ssn = ssn;
     }
 
     public Patient(String name, String fName, String email, String age, String city, String country,
@@ -266,6 +270,8 @@ public class Patient implements Parcelable {
         arg0.writeString(phone);
         arg0.writeString(ssn);
     }
+
+    //public ArrayList<String>
 
     public static final Parcelable.Creator CREATOR = new Parcelable.Creator() {
         public Patient createFromParcel(Parcel in) {

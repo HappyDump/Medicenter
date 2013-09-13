@@ -22,6 +22,15 @@ public class PatientBDD {
     private static final int NUM_COL_N_MEET = 4;
     private static final String COL_DESC = "desc";
     private static final int NUM_COL_DESC = 5;
+    private static final String COL_GENDER = "gender";
+    private static final int NUM_COL_GENDER = 6;
+    private static final String COL_BPLACE = "bPlace";
+    private static final int NUM_COL_BPLACE = 7;
+    private static final String COL_PHONE = "phone";
+    private static final int NUM_COL_PHONE = 8;
+    private static final String COL_SSN = "ssn";
+    private static final int NUM_COL_SSN = 9;
+
 
     private SQLiteDatabase bdd;
 
@@ -51,6 +60,10 @@ public class PatientBDD {
         //values.put(COL_L_MEET, patient.getLastMeet());
         //values.put(COL_N_MEET, patient.getNextMeet());
         values.put(COL_DESC, patient.getDesc());
+        values.put(COL_GENDER, patient.getGender());
+        values.put(COL_BPLACE, patient.getBirthPlace());
+        values.put(COL_PHONE, patient.getPhone());
+        values.put(COL_SSN, patient.getSsn());
 
         return bdd.insert(TABLE_PATIENT, null, values);
     }
@@ -63,6 +76,10 @@ public class PatientBDD {
         //values.put(COL_L_MEET, patient.getLastMeet());
         //values.put(COL_N_MEET, patient.getNextMeet());
         values.put(COL_DESC, patient.getDesc());
+        values.put(COL_GENDER, patient.getGender());
+        values.put(COL_BPLACE, patient.getBirthPlace());
+        values.put(COL_PHONE, patient.getPhone());
+        values.put(COL_SSN, patient.getSsn());
 
         return bdd.update(TABLE_PATIENT, values, COL_ID + " = " + id, null);
     }
@@ -72,7 +89,7 @@ public class PatientBDD {
     }
 
     public Patient getPatientWithName(String name) {
-        Cursor cursor = bdd.query(TABLE_PATIENT, new String[]{COL_ID, COL_NAME, COL_FNAME, COL_L_MEET, COL_N_MEET, COL_DESC}, COL_NAME + " LIKE \"" + name + "\"", null, null, null, null);
+        Cursor cursor = bdd.query(TABLE_PATIENT, new String[]{COL_ID, COL_NAME, COL_FNAME, COL_L_MEET, COL_N_MEET, COL_DESC, COL_GENDER, COL_BPLACE, COL_PHONE, COL_SSN}, COL_NAME + " LIKE \"" + name + "\"", null, null, null, null);
         return cursorToPatient(cursor);
     }
 

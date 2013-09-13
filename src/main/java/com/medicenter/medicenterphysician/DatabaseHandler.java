@@ -98,7 +98,8 @@ public class DatabaseHandler extends SQLiteOpenHelper {
         values.put(KEY_PHONE, patient.getPhone());
         values.put(KEY_SSN, patient.getSsn());
 
-        db.insert(TABLE_PATIENTS, null, values);
+
+        long test = db.insert(TABLE_PATIENTS, null, values);
         db.close();
     }
 
@@ -138,7 +139,7 @@ public class DatabaseHandler extends SQLiteOpenHelper {
 
         Patient patient = new Patient(Integer.parseInt(cursor.getString(0)),
                 cursor.getString(1), cursor.getString(2), cursor.getString(3), cursor.getString(4), cursor.getString(5),
-                cursor.getString(6), cursor.getString(7), cursor.getString(8), cursor.getString(9));
+                cursor.getString(6), cursor.getString(7), cursor.getString(8), cursor.getString(9), cursor.getString(10), cursor.getString(11), cursor.getString(12), cursor.getString(13));
         return patient;
     }
 
@@ -192,6 +193,10 @@ public class DatabaseHandler extends SQLiteOpenHelper {
                 patient.setStreet((cursor.getString(7)));
                 patient.setStreetNo((cursor.getString(8)));
                 patient.setDesc(cursor.getString(9));
+                patient.setGender(cursor.getString(9));
+                patient.setBirthPlace(cursor.getString(9));
+                patient.setPhone(cursor.getString(9));
+                patient.setSsn(cursor.getString(9));
                 // Adding patient to list
                 patientList.add(patient);
             } while (cursor.moveToNext());

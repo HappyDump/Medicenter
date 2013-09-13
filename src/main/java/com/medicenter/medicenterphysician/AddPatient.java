@@ -79,7 +79,7 @@ public class AddPatient extends Activity implements OnItemSelectedListener {
             String buttonCity = pCity.getText().toString();
             String buttonStreet = pStreet.getText().toString();
             String buttonStreetNo = pStreetNo.getText().toString();
-            String buttonGender = gender;
+            String buttonGender = String.valueOf(pGender.getSelectedItem());
             String buttonPhone = pPhone.getText().toString();
             String buttonBplace = pBplace.getText().toString();
             String buttonSsn = pSsn.getText().toString();

@@ -9,6 +9,7 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.ImageView;
 import android.widget.ListView;
+import com.medicenter.medicenterphysician.handlers.WebserviceHandler;
 
 import java.util.List;
 
@@ -23,6 +24,9 @@ public class PatientListActivity extends ListActivity {
         setContentView(R.layout.patients_list_activity_layout);
 
         db = new DatabaseHandler(this);
+
+        WebserviceHandler ws = new WebserviceHandler();
+
 
         int patientsCount = db.getPatientCount();
         Patient[] values = new Patient[patientsCount];
