@@ -6,6 +6,11 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.*;
 import android.widget.AdapterView.OnItemSelectedListener;
+import com.medicenter.medicenterphysician.handlers.WebserviceHandler;
+import org.apache.http.NameValuePair;
+import org.apache.http.message.BasicNameValuePair;
+
+import java.util.ArrayList;
 
 /**
  * Created with IntelliJ IDEA.
@@ -31,6 +36,10 @@ public class AddPatient extends Activity implements OnItemSelectedListener {
     String gender;
     DatabaseHandler dbh;
     ImageView imgView;
+    WebserviceHandler ws;
+    ArrayList<NameValuePair> nameValuePairs;
+    WebserviceConnectionAdd wc;
+
 
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -99,6 +108,23 @@ public class AddPatient extends Activity implements OnItemSelectedListener {
             patient.setBirthPlace(buttonBplace);
             patient.setSsn(buttonSsn);
             dbh.addPatient(patient);
+
+            ws = new WebserviceHandler();
+            nameValuePairs = new ArrayList<NameValuePair>();
+
+            nameValuePairs.add(new BasicNameValuePair("civility", patient.getGender()));
+            nameValuePairs.add(new BasicNameValuePair("first_name", patient.getName()));
+            nameValuePairs.add(new BasicNameValuePair("last_name", patient.getfName()));
+            nameValuePairs.add(new BasicNameValuePair("birth_date", patient.getAge()));
+            nameValuePairs.add(new BasicNameValuePair("birth_place", patient.getBirthPlace()));
+            nameValuePairs.add(new BasicNameValuePair("mail", patient.getEmail()));
+            nameValuePairs.add(new BasicNameValuePair("address_street", patient.getStreetNo() + " " + patient.getStreet()));
+            nameValuePairs.add(new BasicNameValuePair("address_city", patient.getCity()));
+            nameValuePairs.add(new BasicNameValuePair("address_zip_code", patient.getCountry()));
+            nameValuePairs.add(new BasicNameValuePair("phone", patient.getPhone()));
+            nameValuePairs.add(new BasicNameValuePair("ssn", patient.getSsn()));
+
+            new WebserviceConnectionAdd().execute(nameValuePairs);
 
             Intent i = new Intent(getApplicationContext(), PatientListActivity.class);
             startActivity(i);

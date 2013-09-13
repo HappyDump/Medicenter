@@ -23,7 +23,8 @@ import java.util.ArrayList;
 
 
 public class WebserviceHandler {
-    public static String send(String action, ArrayList<NameValuePair> params) throws Exception {
+
+    public String send(String action, ArrayList<NameValuePair> params) throws Exception {
         InputStream is = null;
         String result = "";
         try {
