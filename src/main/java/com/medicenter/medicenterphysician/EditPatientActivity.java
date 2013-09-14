@@ -8,6 +8,11 @@ import android.widget.Button;
 import android.widget.EditText;
 import android.widget.ImageView;
 import android.widget.TextView;
+import com.medicenter.medicenterphysician.handlers.WebserviceHandler;
+import org.apache.http.NameValuePair;
+import org.apache.http.message.BasicNameValuePair;
+
+import java.util.ArrayList;
 
 /**
  * Created with IntelliJ IDEA.
@@ -26,7 +31,14 @@ public class EditPatientActivity extends Activity {
     EditText pStreet;
     EditText pStreetNo;
     EditText pDesc;
+    EditText pGender;
+    EditText pbPLace;
+    EditText pPhone;
+    EditText pSsn;
     DatabaseHandler dbh;
+    WebserviceHandler ws;
+    ArrayList<NameValuePair> nameValuePairs;
+    WebserviceConnectionEdit wc;
     int id;
     ImageView imgView;
 
@@ -96,6 +108,26 @@ public class EditPatientActivity extends Activity {
             patient.setStreet(buttonStreet);
             patient.setStreetNo(buttonStreetNo);
             patient.setfName(buttonSurName);
+
+            ws = new WebserviceHandler();
+            nameValuePairs = new ArrayList<NameValuePair>();
+
+            String id = String.valueOf(patient.getId());
+            nameValuePairs.add(new BasicNameValuePair("patient_id", id));
+            nameValuePairs.add(new BasicNameValuePair("civility", patient.getGender()));
+            nameValuePairs.add(new BasicNameValuePair("first_name", patient.getName()));
+            nameValuePairs.add(new BasicNameValuePair("last_name", patient.getfName()));
+            nameValuePairs.add(new BasicNameValuePair("birth_date", patient.getAge()));
+            nameValuePairs.add(new BasicNameValuePair("birth_place", patient.getBirthPlace()));
+            nameValuePairs.add(new BasicNameValuePair("mail", patient.getEmail()));
+            nameValuePairs.add(new BasicNameValuePair("address_street", patient.getStreetNo() + " " + patient.getStreet()));
+            nameValuePairs.add(new BasicNameValuePair("address_city", patient.getCity()));
+            nameValuePairs.add(new BasicNameValuePair("address_zip_code", patient.getCountry()));
+            nameValuePairs.add(new BasicNameValuePair("phone", patient.getPhone()));
+            nameValuePairs.add(new BasicNameValuePair("ssn", patient.getSsn()));
+
+            new WebserviceConnectionEdit().execute(nameValuePairs);
+
             dbh.updatePatient(patient);
             Intent i = new Intent(getApplicationContext(), PatientListActivity.class);
             startActivity(i);

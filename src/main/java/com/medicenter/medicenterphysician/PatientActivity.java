@@ -14,7 +14,11 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.ImageView;
 import android.widget.TextView;
+import com.medicenter.medicenterphysician.handlers.WebserviceHandler;
+import org.apache.http.NameValuePair;
+import org.apache.http.message.BasicNameValuePair;
 
+import java.util.ArrayList;
 import java.util.List;
 
 
@@ -23,12 +27,19 @@ public class PatientActivity extends Activity {
     ImageView imgView;
     ImageView pic;
     Bundle b;
+    WebserviceHandler ws;
+    ArrayList<NameValuePair> nameValuePairs;
+    WebserviceConnectionDelete wc;
+    Patient p;
+    DatabaseHandler dbh;
 
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.patient_layout);
 
-        Patient p = new Patient();
+        dbh = new DatabaseHandler(this);
+
+        p = new Patient();
         TextView name = (TextView) findViewById(R.id.nameFill);
         TextView fName = (TextView) findViewById(R.id.fnameFill);
         TextView email = (TextView) findViewById(R.id.emailFill);
@@ -170,6 +181,18 @@ public class PatientActivity extends Activity {
                 i3.setClass(getApplicationContext(), MeetingListPatientActivity.class);
                 startActivity(i3);
 
+                return true;
+
+            case R.id.deletePatient:
+                ws = new WebserviceHandler();
+                nameValuePairs = new ArrayList<NameValuePair>();
+
+                String id = String.valueOf(p.getId());
+                nameValuePairs.add(new BasicNameValuePair("patient_id", id));
+                new WebserviceConnectionDelete().execute(nameValuePairs);
+                dbh.deletePatient(p);
+                Intent i = new Intent(getApplicationContext(), PatientListActivity.class);
+                startActivity(i);
                 return true;
 
             default:

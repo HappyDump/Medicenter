@@ -7,4 +7,7 @@
     <item android:id="@+id/meetingPatient"
           android:title="Meetings"
             />
+    <item android:id="@+id/deletePatient"
+          android:title="Delete"
+            />
 </menu>
