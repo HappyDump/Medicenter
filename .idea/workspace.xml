@@ -32,12 +32,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="97063479-3710-48f8-af7e-82c0484c7d74" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/medicenter/medicenterphysician/WebserviceConnectionDelete.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/medicenter/medicenterphysician/WebserviceConnectionEdit.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/medicenter/medicenterphysician/EditPatientActivity.java" afterPath="$PROJECT_DIR$/src/main/java/com/medicenter/medicenterphysician/EditPatientActivity.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/medicenter/medicenterphysician/PatientActivity.java" afterPath="$PROJECT_DIR$/src/main/java/com/medicenter/medicenterphysician/PatientActivity.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/medicenter/medicenterphysician/PatientListActivity.java" afterPath="$PROJECT_DIR$/src/main/java/com/medicenter/medicenterphysician/PatientListActivity.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/menu/patient_activity_menu.xml" afterPath="$PROJECT_DIR$/res/menu/patient_activity_menu.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/medicenter/medicenterphysician/WebserviceConnectionAdd.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/medicenter/medicenterphysician/AddPatient.java" afterPath="$PROJECT_DIR$/src/main/java/com/medicenter/medicenterphysician/AddPatient.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/medicenter/medicenterphysician/handlers/WebserviceHandler.java" afterPath="$PROJECT_DIR$/src/main/java/com/medicenter/medicenterphysician/handlers/WebserviceHandler.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/values/arrays.xml" afterPath="$PROJECT_DIR$/res/values/arrays.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="MedicenterPhysician.iws" />
@@ -46,7 +44,7 @@
     <file path="/RssItem.java" changelist="97063479-3710-48f8-af7e-82c0484c7d74" time="1369359315669" ignored="false" />
     <file path="/ListListener.java" changelist="97063479-3710-48f8-af7e-82c0484c7d74" time="1369359200276" ignored="false" />
     <file path="$USER_HOME$/Downloads/TeleSorbonne/src/com/TeleSorbonne/listener/ListListener.java" changelist="97063479-3710-48f8-af7e-82c0484c7d74" time="1369359202082" ignored="false" />
-    <file path="/Dummy.txt" changelist="97063479-3710-48f8-af7e-82c0484c7d74" time="1379095433981" ignored="false" />
+    <file path="/Dummy.txt" changelist="97063479-3710-48f8-af7e-82c0484c7d74" time="1379071740696" ignored="false" />
     <file path="$USER_HOME$/Downloads/TeleSorbonne/res/layout/news_activity_layout.xml" changelist="97063479-3710-48f8-af7e-82c0484c7d74" time="1369392237408" ignored="false" />
     <file path="/NewsActivity.java" changelist="97063479-3710-48f8-af7e-82c0484c7d74" time="1369390753581" ignored="false" />
     <file path="$USER_HOME$/Downloads/TeleSorbonne/src/com/TeleSorbonne/activity/NewsActivity.java" changelist="97063479-3710-48f8-af7e-82c0484c7d74" time="1369366580998" ignored="false" />
@@ -64,7 +62,7 @@
     <file path="/main.xml" changelist="97063479-3710-48f8-af7e-82c0484c7d74" time="1369379897942" ignored="false" />
     <file path="$USER_HOME$/Downloads/TeleSorbonne/res/values/dimens.xml" changelist="97063479-3710-48f8-af7e-82c0484c7d74" time="1369392146274" ignored="false" />
     <file path="/Patient.java" changelist="97063479-3710-48f8-af7e-82c0484c7d74" time="1378907887627" ignored="false" />
-    <file path="/PatientListActivity.java" changelist="97063479-3710-48f8-af7e-82c0484c7d74" time="1379116739400" ignored="false" />
+    <file path="/PatientListActivity.java" changelist="97063479-3710-48f8-af7e-82c0484c7d74" time="1379069615735" ignored="false" />
     <file path="/DCD.puml" changelist="97063479-3710-48f8-af7e-82c0484c7d74" time="1370020477922" ignored="false" />
     <file path="/AppointmentActivity.java" changelist="97063479-3710-48f8-af7e-82c0484c7d74" time="1371628441088" ignored="false" />
     <file path="/DashboardLayout.java" changelist="97063479-3710-48f8-af7e-82c0484c7d74" time="1370024746789" ignored="false" />
@@ -98,7 +96,7 @@
     <file path="/PatientArrayAdapter.java" changelist="97063479-3710-48f8-af7e-82c0484c7d74" time="1372146837209" ignored="false" />
     <file path="/patients_list_activity_layout.xml" changelist="97063479-3710-48f8-af7e-82c0484c7d74" time="1376996558930" ignored="false" />
     <file path="/patient_activity_menu.xml" changelist="97063479-3710-48f8-af7e-82c0484c7d74" time="1377356132074" ignored="false" />
-    <file path="/PatientActivity.java" changelist="97063479-3710-48f8-af7e-82c0484c7d74" time="1379115469921" ignored="false" />
+    <file path="/PatientActivity.java" changelist="97063479-3710-48f8-af7e-82c0484c7d74" time="1379056567574" ignored="false" />
     <file path="/patient_layout.xml" changelist="97063479-3710-48f8-af7e-82c0484c7d74" time="1377419791605" ignored="false" />
     <file path="/a.java" changelist="97063479-3710-48f8-af7e-82c0484c7d74" time="1377436454547" ignored="false" />
     <file path="/sample.java" changelist="97063479-3710-48f8-af7e-82c0484c7d74" time="1377436477705" ignored="false" />
@@ -109,7 +107,6 @@
     <file path="/WebserviceHandler.java" changelist="97063479-3710-48f8-af7e-82c0484c7d74" time="1378912479516" ignored="false" />
     <file path="/PatientBDD.java" changelist="97063479-3710-48f8-af7e-82c0484c7d74" time="1379069543034" ignored="false" />
     <file path="/WebserviceConnection.java" changelist="97063479-3710-48f8-af7e-82c0484c7d74" time="1379081986234" ignored="false" />
-    <file path="/EditPatientActivity.java" changelist="97063479-3710-48f8-af7e-82c0484c7d74" time="1379115192046" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -177,7 +174,7 @@
         <option name="CONDITION" value="" />
         <option name="LOG_MESSAGE" value="" />
       </breakpoint>
-      <breakpoint url="file://$PROJECT_DIR$/src/main/java/com/medicenter/medicenterphysician/WebserviceConnectionAdd.java" line="25" class="com.medicenter.medicenterphysician.WebserviceConnectionAdd" package="com.medicenter.medicenterphysician">
+      <breakpoint url="file://$PROJECT_DIR$/src/main/java/com/medicenter/medicenterphysician/WebserviceConnectionAdd.java" line="26" class="com.medicenter.medicenterphysician.WebserviceConnectionAdd" package="com.medicenter.medicenterphysician">
         <option name="ENABLED" value="true" />
         <option name="LOG_ENABLED" value="false" />
         <option name="LOG_EXPRESSION_ENABLED" value="false" />
@@ -192,7 +189,7 @@
         <option name="CONDITION" value="" />
         <option name="LOG_MESSAGE" value="" />
       </breakpoint>
-      <breakpoint url="file://$PROJECT_DIR$/src/main/java/com/medicenter/medicenterphysician/WebserviceConnectionAdd.java" line="28" class="com.medicenter.medicenterphysician.WebserviceConnectionAdd" package="com.medicenter.medicenterphysician">
+      <breakpoint url="file://$PROJECT_DIR$/src/main/java/com/medicenter/medicenterphysician/WebserviceConnectionAdd.java" line="29" class="com.medicenter.medicenterphysician.WebserviceConnectionAdd" package="com.medicenter.medicenterphysician">
         <option name="ENABLED" value="true" />
         <option name="LOG_ENABLED" value="false" />
         <option name="LOG_EXPRESSION_ENABLED" value="false" />
@@ -222,36 +219,6 @@
         <option name="CONDITION" value="" />
         <option name="LOG_MESSAGE" value="" />
       </breakpoint>
-      <breakpoint url="file://$PROJECT_DIR$/src/main/java/com/medicenter/medicenterphysician/WebserviceConnectionEdit.java" line="24" class="com.medicenter.medicenterphysician.WebserviceConnectionEdit" package="com.medicenter.medicenterphysician">
-        <option name="ENABLED" value="true" />
-        <option name="LOG_ENABLED" value="false" />
-        <option name="LOG_EXPRESSION_ENABLED" value="false" />
-        <option name="REMOVE_AFTER_HIT" value="false" />
-        <option name="SUSPEND_POLICY" value="SuspendAll" />
-        <option name="SUSPEND" value="true" />
-        <option name="COUNT_FILTER_ENABLED" value="false" />
-        <option name="COUNT_FILTER" value="0" />
-        <option name="CONDITION_ENABLED" value="true" />
-        <option name="CLASS_FILTERS_ENABLED" value="false" />
-        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
-        <option name="CONDITION" value="" />
-        <option name="LOG_MESSAGE" value="" />
-      </breakpoint>
-      <breakpoint url="file://$PROJECT_DIR$/src/main/java/com/medicenter/medicenterphysician/WebserviceConnectionDelete.java" line="24" class="com.medicenter.medicenterphysician.WebserviceConnectionDelete" package="com.medicenter.medicenterphysician">
-        <option name="ENABLED" value="true" />
-        <option name="LOG_ENABLED" value="false" />
-        <option name="LOG_EXPRESSION_ENABLED" value="false" />
-        <option name="REMOVE_AFTER_HIT" value="false" />
-        <option name="SUSPEND_POLICY" value="SuspendAll" />
-        <option name="SUSPEND" value="true" />
-        <option name="COUNT_FILTER_ENABLED" value="false" />
-        <option name="COUNT_FILTER" value="0" />
-        <option name="CONDITION_ENABLED" value="true" />
-        <option name="CLASS_FILTERS_ENABLED" value="false" />
-        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
-        <option name="CONDITION" value="" />
-        <option name="LOG_MESSAGE" value="" />
-      </breakpoint>
     </line_breakpoints>
     <breakpoint_rules />
     <ui_properties />
@@ -265,7 +232,7 @@
       <file leaf-file-name="DatabaseHandler.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/medicenter/medicenterphysician/DatabaseHandler.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="115" column="5" selection-start="5156" selection-end="5156" vertical-scroll-proportion="0.0">
+            <state line="115" column="5" selection-start="5156" selection-end="5156" vertical-scroll-proportion="-15.153846">
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#8172#8181#0" expanded="true" />
@@ -278,10 +245,19 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="Mpdb.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/medicenter/medicenterphysician/Mpdb.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="26" column="238" selection-start="1319" selection-end="1319" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="WebserviceHandler.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/medicenter/medicenterphysician/handlers/WebserviceHandler.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="30" column="0" selection-start="847" selection-end="847" vertical-scroll-proportion="0.0">
+            <state line="37" column="0" selection-start="1170" selection-end="1170" vertical-scroll-proportion="0.0">
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -289,21 +265,34 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="WebserviceConnectionAdd.java" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="WebserviceConnectionAdd.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/medicenter/medicenterphysician/WebserviceConnectionAdd.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="18" column="97" selection-start="446" selection-end="552" vertical-scroll-proportion="0.0">
+            <state line="28" column="37" selection-start="925" selection-end="925" vertical-scroll-proportion="0.5504087">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="WebserviceConnectionEdit.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/medicenter/medicenterphysician/WebserviceConnectionEdit.java">
+      <file leaf-file-name="AndroidManifest.xml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/AndroidManifest.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="33" column="16" selection-start="960" selection-end="960" vertical-scroll-proportion="0.0">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AddPatient.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/medicenter/medicenterphysician/AddPatient.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="126" column="41" selection-start="5569" selection-end="5569" vertical-scroll-proportion="0.0">
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#2596#2805#0" expanded="true" />
+                <element signature="e#2794#2795#0" expanded="true" />
+                <element signature="e#2867#5728#0" expanded="true" />
+                <element signature="e#5721#5722#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -320,10 +309,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="WebserviceConnectionDelete.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/medicenter/medicenterphysician/WebserviceConnectionDelete.java">
+      <file leaf-file-name="PatientBDD.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/medicenter/medicenterphysician/PatientBDD.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="24" column="0" selection-start="790" selection-end="790" vertical-scroll-proportion="0.0">
+            <state line="36" column="16" selection-start="1443" selection-end="1447" vertical-scroll-proportion="2.1538463">
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -334,52 +323,25 @@
       <file leaf-file-name="PatientActivity.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/medicenter/medicenterphysician/PatientActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="39" column="40" selection-start="1200" selection-end="1200" vertical-scroll-proportion="0.0">
+            <state line="60" column="31" selection-start="2301" selection-end="2301" vertical-scroll-proportion="0.0">
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#3033#3242#0" expanded="true" />
-                <element signature="e#3231#3232#0" expanded="true" />
-                <element signature="e#3776#4045#0" expanded="true" />
-                <element signature="e#4034#4035#0" expanded="true" />
-                <element signature="e#4080#4219#0" expanded="true" />
-                <element signature="e#4208#4209#0" expanded="true" />
+                <element signature="e#2666#2875#0" expanded="true" />
+                <element signature="e#2864#2865#0" expanded="true" />
+                <element signature="e#3409#3678#0" expanded="true" />
+                <element signature="e#3667#3668#0" expanded="true" />
+                <element signature="e#3713#3852#0" expanded="true" />
+                <element signature="e#3841#3842#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="EditPatientActivity.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/medicenter/medicenterphysician/EditPatientActivity.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="47" column="8" selection-start="1212" selection-end="1212" vertical-scroll-proportion="0.0">
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="AddPatient.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/medicenter/medicenterphysician/AddPatient.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="126" column="71" selection-start="4401" selection-end="5575" vertical-scroll-proportion="0.0">
-              <folding>
-                <element signature="e#2574#2783#0" expanded="true" />
-                <element signature="e#2772#2773#0" expanded="true" />
-                <element signature="e#2845#5709#0" expanded="true" />
-                <element signature="e#5702#5703#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="PatientListActivity.java" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="PatientListActivity.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/medicenter/medicenterphysician/PatientListActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="32" column="0" selection-start="941" selection-end="941" vertical-scroll-proportion="0.33242506">
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state line="32" column="0" selection-start="941" selection-end="941" vertical-scroll-proportion="0.0">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -412,22 +374,22 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/res/layout/listitem.xml" />
+        <option value="$PROJECT_DIR$/res/values/strings.xml" />
+        <option value="$PROJECT_DIR$/res/layout/add_patients.xml" />
         <option value="$PROJECT_DIR$/res/layout/patient_layout.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/medicenter/medicenterphysician/PatientActivity.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/medicenter/medicenterphysician/PatientBDD.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/medicenter/medicenterphysician/Patient.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/medicenter/medicenterphysician/DatabaseHandler.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/medicenter/medicenterphysician/Mpdb.java" />
         <option value="$PROJECT_DIR$/res/values/arrays.xml" />
         <option value="$PROJECT_DIR$/src/main/java/com/medicenter/medicenterphysician/handlers/WebserviceHandler.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/medicenter/medicenterphysician/WebserviceConnection.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/medicenter/medicenterphysician/AddPatient.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/medicenter/medicenterphysician/WebserviceConnectionAdd.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/medicenter/medicenterphysician/WebserviceConnectionEdit.java" />
-        <option value="$PROJECT_DIR$/res/menu/patient_activity_menu.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/com/medicenter/medicenterphysician/EditPatientActivity.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/medicenter/medicenterphysician/WebserviceConnectionDelete.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/medicenter/medicenterphysician/PatientActivity.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/medicenter/medicenterphysician/PatientListActivity.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/medicenter/medicenterphysician/WebserviceConnection.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/medicenter/medicenterphysician/WebserviceConnectionAdd.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/medicenter/medicenterphysician/AddPatient.java" />
       </list>
     </option>
   </component>
@@ -636,6 +598,20 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="handlers" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="MedicenterPhysician" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="MedicenterPhysician" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="res" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -934,11 +910,7 @@
       <created>1379071776934</created>
       <updated>1379071776934</updated>
     </task>
-    <task id="LOCAL-00011" summary="Ass patien communique avec le webservice">
-      <created>1379095441511</created>
-      <updated>1379095441511</updated>
-    </task>
-    <option name="localTasksCounter" value="12" />
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TodoView" selected-index="0">
@@ -963,7 +935,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="45" y="22" width="1380" height="815" extended-state="0" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32908547" sideWeight="0.6014388" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3268366" sideWeight="0.6014388" order="2" side_tool="false" content_ui="tabs" />
@@ -971,8 +943,8 @@
       <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.39856115" sideWeight="0.7563718" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39856115" sideWeight="0.24362819" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.39856115" sideWeight="0.7563718" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.39856115" sideWeight="0.24362819" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2496361" sideWeight="0.21891892" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32805756" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -1036,7 +1008,7 @@
     <option name="WRAP_WHEN_TYPING_REACHES_RIGHT_MARGIN" value="false" />
     <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="false" />
-    <option name="LAST_COMMIT_MESSAGE" value="Ass patien communique avec le webservice" />
+    <option name="LAST_COMMIT_MESSAGE" value="suite webservice et maj de la DB" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="false" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
@@ -1057,7 +1029,6 @@
     <MESSAGE value="xml" />
     <MESSAGE value="Début de la compatibilité webservice et maj de la DB" />
     <MESSAGE value="suite webservice et maj de la DB" />
-    <MESSAGE value="Ass patien communique avec le webservice" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -1067,10 +1038,91 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="jar://$PROJECT_DIR$/../../../Dev SDKS/adt-bundle-mac-x86_64-20130729/sdk/platforms/android-18/android.jar!/android/os/Handler.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="17" column="16" selection-start="564" selection-end="564" vertical-scroll-proportion="0.33242506">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/../../../Dev SDKS/adt-bundle-mac-x86_64-20130729/sdk/platforms/android-18/android.jar!/android/view/View.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/layout/patients_list_activity_layout.xml">
+      <provider selected="true" editor-type-id="android-designer">
+        <state />
+      </provider>
+      <provider editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/medicenter/medicenterphysician/PatientBDD.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="36" column="16" selection-start="1443" selection-end="1447" vertical-scroll-proportion="2.1538463">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/layout/add_patients.xml">
+      <provider selected="true" editor-type-id="android-designer">
+        <state />
+      </provider>
+      <provider editor-type-id="text-editor">
+        <state line="106" column="44" selection-start="5229" selection-end="5229" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/res/values/arrays.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state line="5" column="16" selection-start="156" selection-end="156" vertical-scroll-proportion="0.1923077">
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/medicenter/medicenterphysician/Patient.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="273" column="6" selection-start="6396" selection-end="6396" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/medicenter/medicenterphysician/PatientActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="60" column="31" selection-start="2301" selection-end="2301" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#2666#2875#0" expanded="true" />
+            <element signature="e#2864#2865#0" expanded="true" />
+            <element signature="e#3409#3678#0" expanded="true" />
+            <element signature="e#3667#3668#0" expanded="true" />
+            <element signature="e#3713#3852#0" expanded="true" />
+            <element signature="e#3841#3842#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/medicenter/medicenterphysician/DatabaseHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="115" column="5" selection-start="5156" selection-end="5156" vertical-scroll-proportion="-15.153846">
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#8172#8181#0" expanded="true" />
+            <element signature="e#9646#9655#0" expanded="true" />
+            <element signature="e#10551#10565#0" expanded="true" />
+            <element signature="e#11660#11669#0" expanded="true" />
+            <element signature="e#12894#12908#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1095,119 +1147,39 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/medicenter/medicenterphysician/WebserviceConnectionAdd.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="97" selection-start="446" selection-end="552" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/medicenter/medicenterphysician/AddPatient.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="126" column="71" selection-start="4401" selection-end="5575" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="e#2574#2783#0" expanded="true" />
-            <element signature="e#2772#2773#0" expanded="true" />
-            <element signature="e#2845#5709#0" expanded="true" />
-            <element signature="e#5702#5703#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/res/menu/patients_list_menu.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="39" selection-start="197" selection-end="197" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/res/menu/patient_activity_menu.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="31" selection-start="365" selection-end="365" vertical-scroll-proportion="0.40871936">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/medicenter/medicenterphysician/WebserviceConnectionEdit.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="33" column="16" selection-start="960" selection-end="960" vertical-scroll-proportion="0.0">
+        <state line="126" column="41" selection-start="5569" selection-end="5569" vertical-scroll-proportion="0.0">
           <folding>
             <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/medicenter/medicenterphysician/DatabaseHandler.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="115" column="5" selection-start="5156" selection-end="5156" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#8172#8181#0" expanded="true" />
-            <element signature="e#9646#9655#0" expanded="true" />
-            <element signature="e#10551#10565#0" expanded="true" />
-            <element signature="e#11660#11669#0" expanded="true" />
-            <element signature="e#12894#12908#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/medicenter/medicenterphysician/EditPatientActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="47" column="8" selection-start="1212" selection-end="1212" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/medicenter/medicenterphysician/PatientActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="39" column="40" selection-start="1200" selection-end="1200" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#3033#3242#0" expanded="true" />
-            <element signature="e#3231#3232#0" expanded="true" />
-            <element signature="e#3776#4045#0" expanded="true" />
-            <element signature="e#4034#4035#0" expanded="true" />
-            <element signature="e#4080#4219#0" expanded="true" />
-            <element signature="e#4208#4209#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/medicenter/medicenterphysician/handlers/WebserviceHandler.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="30" column="0" selection-start="847" selection-end="847" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/medicenter/medicenterphysician/WebserviceConnectionDelete.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="24" column="0" selection-start="790" selection-end="790" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/medicenter/medicenterphysician/Patient.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="273" column="6" selection-start="6396" selection-end="6396" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="e#2596#2805#0" expanded="true" />
+            <element signature="e#2794#2795#0" expanded="true" />
+            <element signature="e#2867#5728#0" expanded="true" />
+            <element signature="e#5721#5722#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/medicenter/medicenterphysician/PatientListActivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="32" column="0" selection-start="941" selection-end="941" vertical-scroll-proportion="0.33242506">
+        <state line="32" column="0" selection-start="941" selection-end="941" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/medicenter/medicenterphysician/handlers/WebserviceHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="37" column="0" selection-start="1170" selection-end="1170" vertical-scroll-proportion="0.0">
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/medicenter/medicenterphysician/WebserviceConnectionAdd.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="28" column="37" selection-start="925" selection-end="925" vertical-scroll-proportion="0.5504087">
+          <folding />
         </state>
       </provider>
     </entry>
