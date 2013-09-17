@@ -18,7 +18,7 @@ import java.util.List;
  */
 
 public class DatabaseHandler extends SQLiteOpenHelper {
-    private static final int DATABASE_VERSION = 6;
+    private static final int DATABASE_VERSION = 10;
     private static final String DATABASE_NAME = "Medicenter";
     private static final String TABLE_PATIENTS = "patients";
     private static final String TABLE_MEETING = "meeting";
@@ -57,10 +57,12 @@ public class DatabaseHandler extends SQLiteOpenHelper {
 
     @Override
     public void onCreate(SQLiteDatabase db) {
+
+        //add les champs de create
         String CREATE_PATIENT_TABLE = "CREATE TABLE " + TABLE_PATIENTS + "(" + KEY_ID + " INTEGER PRIMARY KEY,"
-                + KEY_NAME + " TEXT," + KEY_FNAME + " TEXT," + KEY_EMAIL + " TEXT," + KEY_AGE + " TEXT," + KEY_STREET +
-                " TEXT," + KEY_STREETNO + " TEXT," + KEY_COUNTRY + " TEXT," + KEY_CITY + " TEXT,"
-                + KEY_DESC + " TEXT" + ")";
+                + KEY_NAME + " TEXT," + KEY_FNAME + " TEXT," + KEY_EMAIL + " TEXT," + KEY_AGE + " TEXT," +
+                KEY_CITY + " TEXT," + KEY_COUNTRY + " TEXT," + KEY_STREET + " TEXT," + KEY_STREETNO + " TEXT,"
+                + KEY_DESC + " TEXT," + KEY_GENDER + " TEXT," + KEY_BPLACE + " TEXT," + KEY_PHONE + " TEXT," + KEY_SSN + " TEXT" + ")";
         db.execSQL(CREATE_PATIENT_TABLE);
         String CREATE_MEETING_TABLE = "CREATE TABLE " + TABLE_MEETING + "(" + KEY_MEETING_ID + " INTEGER PRIMARY KEY,"
                 + KEY_MEETING_PATIENTID + " INTEGER," + KEY_MEETING_DATE + " TEXT," + KEY_MEETING_OBS + " TEXT" +

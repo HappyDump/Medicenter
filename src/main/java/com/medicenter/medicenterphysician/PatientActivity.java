@@ -189,8 +189,15 @@ public class PatientActivity extends Activity {
 
                 String id = String.valueOf(p.getId());
                 nameValuePairs.add(new BasicNameValuePair("patient_id", id));
-                new WebserviceConnectionDelete().execute(nameValuePairs);
-                dbh.deletePatient(p);
+                String res = new String("");
+                wc = new WebserviceConnectionDelete();
+                try {
+                    res = wc.execute(nameValuePairs).get();
+                } catch (Exception e) {
+                    System.out.println(e);
+                }
+                if (res != "fail")
+                    dbh.deletePatient(p);
                 Intent i = new Intent(getApplicationContext(), PatientListActivity.class);
                 startActivity(i);
                 return true;

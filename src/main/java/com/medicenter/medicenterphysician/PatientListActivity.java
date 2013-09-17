@@ -37,8 +37,8 @@ public class PatientListActivity extends ListActivity {
             incr++;
         }
 
-        Patient pp = new Patient("Janine", "Dupont", "jd@jd.com", "01-09-2000", "Paris", "75003", "Rue Beaubourg", "123", "test desc", "Ms.", "Paris", "0606060606", "188097511824065");
-        db.addPatient(pp);
+        //Patient pp = new Patient("Janine", "Dupont", "jd@jd.com", "01-09-2000", "Paris", "75003", "Rue Beaubourg", "123", "test desc", "Ms.", "Paris", "0606060606", "188097511824065");
+        //db.addPatient(pp);
 
         //Patient[] values = new Patient[2];
         //values[0] = new Patient(0, "Jean", "Dupont", "10/08/2013 12h42", "15/08/2013 15h00", "Blah Blah MEDECIN blah blah TEST blah blah LUPUS");

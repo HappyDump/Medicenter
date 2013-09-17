@@ -32,6 +32,7 @@ public class WebserviceHandler {
             String url = "http://medicenter.px751.fr/ws/patients/" + action;
             HttpPost httppost = new HttpPost(url);
 
+
             httppost.setEntity(new UrlEncodedFormEntity(params));
 
             HttpResponse response = httpclient.execute(httppost);

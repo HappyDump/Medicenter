@@ -31,4 +31,8 @@ public class WebserviceConnectionDelete extends AsyncTask<ArrayList<NameValuePai
         }
 
     }
+
+    // protected onPostExecute(){
+
+    //}
 }
