@@ -21,6 +21,7 @@
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="library" name="asmack-android-17-0.8.3" level="project" />
     <orderEntry type="library" name="ksoap2-android-assembly-3.0.0-jar-with-dependencies" level="project" />
+    <orderEntry type="library" name="android-support-v7-appcompat" level="project" />
   </component>
 </module>
 

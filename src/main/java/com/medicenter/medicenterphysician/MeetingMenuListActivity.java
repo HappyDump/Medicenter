@@ -85,4 +85,6 @@ public class MeetingMenuListActivity extends ListActivity {
         i.setClass(this, MeetingActivityMenu.class);
         startActivity(i);
     }
+
+
 }

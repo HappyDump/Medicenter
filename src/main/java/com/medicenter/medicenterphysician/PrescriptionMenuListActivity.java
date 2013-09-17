@@ -3,8 +3,10 @@ package com.medicenter.medicenterphysician;
 import android.app.ListActivity;
 import android.content.Intent;
 import android.os.Bundle;
+import android.view.Menu;
+import android.view.MenuInflater;
+import android.view.MenuItem;
 import android.view.View;
-import android.widget.Button;
 import android.widget.ImageView;
 import android.widget.ListView;
 
@@ -20,7 +22,7 @@ import java.util.List;
 public class PrescriptionMenuListActivity extends ListActivity {
     DatabaseHandler db;
     PrescriptionMenuAdapter prescriptionMenuAdapter;
-    Button addPrescription;
+    //Button addPrescription;
     Patient p;
     ImageView imgView;
 
@@ -45,15 +47,15 @@ public class PrescriptionMenuListActivity extends ListActivity {
 
         prescriptionMenuAdapter = new PrescriptionMenuAdapter(this, values);
         setListAdapter(prescriptionMenuAdapter);
-        addPrescription = (Button) findViewById(R.id.addprescription);
+        //addPrescription = (Button) findViewById(R.id.addprescription);
 
-        addPrescription.setOnClickListener(new View.OnClickListener() {
-            public void onClick(View v) {
-                Intent i2 = new Intent();
-                i2.setClass(getApplicationContext(), AddPrescriptionMenu.class);
-                startActivity(i2);
-            }
-        });
+        //addPrescription.setOnClickListener(new View.OnClickListener() {
+        //    public void onClick(View v) {
+        //        Intent i2 = new Intent();
+        //        i2.setClass(getApplicationContext(), AddPrescriptionMenu.class);
+        //        startActivity(i2);
+        //    }
+        //});
         imgView = (ImageView) findViewById(R.id.headerImg);
         imgView.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
@@ -72,6 +74,7 @@ public class PrescriptionMenuListActivity extends ListActivity {
      * @param id       long item id.
      */
 
+
     @Override
     protected void onListItemClick(ListView l, View v, int position, long id) {
         super.onListItemClick(l, v, position, id);
@@ -84,5 +87,24 @@ public class PrescriptionMenuListActivity extends ListActivity {
         i.putExtras(b);
         i.setClass(this, PrescriptionActivityMenu.class);
         startActivity(i);
+    }
+
+    public boolean onCreateOptionsMenu(Menu menu) {
+        // Inflate the menu; this adds items to the action bar if it is present.
+
+        MenuInflater inflater = getMenuInflater();
+        inflater.inflate(R.menu.patients_list_menu, menu);
+        return super.onCreateOptionsMenu(menu);
+
+    }
+
+    public boolean onOptionsItemSelected(MenuItem item) {
+        switch (item.getItemId()) {
+            case R.id.addPrescription:
+                startActivity(new Intent(this, AddPrescriptionMenu.class));
+                return true;
+            default:
+                return super.onOptionsItemSelected(item);
+        }
     }
 }

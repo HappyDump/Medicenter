@@ -9,6 +9,7 @@ import android.graphics.Bitmap;
 import android.os.Bundle;
 import android.provider.MediaStore;
 import android.view.Menu;
+import android.view.MenuInflater;
 import android.view.MenuItem;
 import android.view.View;
 import android.widget.Button;
@@ -153,8 +154,10 @@ public class PatientActivity extends Activity {
 
     public boolean onCreateOptionsMenu(Menu menu) {
         // Inflate the menu; this adds items to the action bar if it is present.
-        getMenuInflater().inflate(R.menu.patient_activity_menu, menu);
-        return true;
+
+        MenuInflater inflater = getMenuInflater();
+        inflater.inflate(R.menu.patient_activity_menu, menu);
+        return super.onCreateOptionsMenu(menu);
     }
 
     public boolean onOptionsItemSelected(MenuItem item) {

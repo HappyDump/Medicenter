@@ -6,9 +6,12 @@ import android.os.Bundle;
 import android.view.Menu;
 import android.view.View;
 import android.view.View.OnClickListener;
+import android.view.ViewConfiguration;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.Toast;
+
+import java.lang.reflect.Field;
 
 public class Login_Activity extends Activity {
 
@@ -30,12 +33,21 @@ public class Login_Activity extends Activity {
         db.addPatient(new Patient("Claire", "Peniche", "31/8/2013", "27/06/2013", "Lorem Ipsum..." ));
         db.addPatient(new Patient("Karl-Oscar", "Davidson", "04/06/2013", "27/06/2013", "Lorem Ipsum..." ));*/
 
-
         setContentView(R.layout.login_activity);
         username = (EditText) findViewById(R.id.username);
         password = (EditText) findViewById(R.id.password);
         login = (Button) findViewById(R.id.login);
         login.setOnClickListener(loginListener);
+        try {
+            ViewConfiguration config = ViewConfiguration.get(this);
+            Field menuKeyField = ViewConfiguration.class.getDeclaredField("sHasPermanentMenuKey");
+            if (menuKeyField != null) {
+                menuKeyField.setAccessible(true);
+                menuKeyField.setBoolean(config, false);
+            }
+        } catch (Exception ex) {
+
+        }
     }
 
     private OnClickListener loginListener = new OnClickListener() {

@@ -3,11 +3,17 @@
 <menu xmlns:android="http://schemas.android.com/apk/res/android">
     <item android:id="@+id/editPatientDetails"
           android:title="Edit"
+          android:icon="@drawable/content_edit"
+          android:showAsAction="ifRoom|withText"
             />
     <item android:id="@+id/meetingPatient"
           android:title="Meetings"
+          android:icon="@drawable/content_event"
+          android:showAsAction="collapseActionView"
             />
     <item android:id="@+id/deletePatient"
           android:title="Delete"
+          android:icon="@drawable/content_discard"
+          android:showAsAction="collapseActionView"
             />
 </menu>

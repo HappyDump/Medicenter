@@ -3,7 +3,6 @@ package com.medicenter.medicenterphysician;
 import android.app.ListActivity;
 import android.content.Intent;
 import android.os.Bundle;
-import android.view.Menu;
 import android.view.View;
 import android.widget.Button;
 
@@ -74,11 +73,5 @@ public class Menu_Page extends ListActivity {
             }
         });
 
-    }
-
-    public boolean onCreateOptionsMenu(Menu menu) {
-        // Inflate the menu; this adds items to the action bar if it is present.
-        getMenuInflater().inflate(R.menu.login_activity, menu);
-        return true;
     }
 }

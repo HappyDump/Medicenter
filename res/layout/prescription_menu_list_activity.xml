@@ -15,11 +15,7 @@
             android:layout_height="wrap_content">
     </ListView>
 
-    <Button
-            android:layout_width="fill_parent"
-            android:layout_height="wrap_content"
-            android:text="Add Prescription"
-            android:id="@+id/addprescription"/>
+
     <ListView
             android:id="@android:id/list"
             android:layout_width="match_parent"
