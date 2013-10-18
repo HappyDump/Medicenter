@@ -4,6 +4,9 @@ import android.app.ListActivity;
 import android.content.Intent;
 import android.os.Bundle;
 import android.util.Log;
+import android.view.Menu;
+import android.view.MenuInflater;
+import android.view.MenuItem;
 import android.view.View;
 import android.widget.Button;
 import android.widget.ImageView;
@@ -24,6 +27,7 @@ public class MeetingListPatientActivity extends ListActivity {
     Button addMeeting;
     Patient p;
     ImageView imgView;
+    Bundle b;
 
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -31,6 +35,7 @@ public class MeetingListPatientActivity extends ListActivity {
 
         db = new DatabaseHandler(this);
 
+        b = this.getIntent().getExtras();
         p = new Patient();
         final Bundle b = this.getIntent().getExtras();
         p = b.getParcelable("patient");
@@ -53,19 +58,9 @@ public class MeetingListPatientActivity extends ListActivity {
 
         meetingArrayAdapter = new MeetingArrayAdapter(this, values);
         setListAdapter(meetingArrayAdapter);
-        addMeeting = (Button) findViewById(R.id.addmeeting);
+        addMeeting = (Button) findViewById(R.id.addMeeting);
 
-        addMeeting.setOnClickListener(new View.OnClickListener() {
-            public void onClick(View v) {
-                Patient toGive = b.getParcelable("patient");
-                Intent i2 = new Intent();
-                Bundle b2 = new Bundle();
-                b2.putParcelable("patient", toGive);
-                i2.putExtras(b2);
-                i2.setClass(getApplicationContext(), AddMeeting.class);
-                startActivity(i2);
-            }
-        });
+
         imgView = (ImageView) findViewById(R.id.headerImg);
         imgView.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
@@ -96,5 +91,30 @@ public class MeetingListPatientActivity extends ListActivity {
         i.putExtras(b);
         i.setClass(this, MeetingActivity.class);
         startActivity(i);
+    }
+
+    public boolean onCreateOptionsMenu(Menu menu) {
+        // Inflate the menu; this adds items to the action bar if it is present.
+
+        MenuInflater inflater = getMenuInflater();
+        inflater.inflate(R.menu.meeting_menu_list_activity_menu, menu);
+        return super.onCreateOptionsMenu(menu);
+    }
+
+    public boolean onOptionsItemSelected(MenuItem item) {
+        switch (item.getItemId()) {
+            case R.id.addMeeting:
+
+                Patient toGive = b.getParcelable("patient");
+                Intent i2 = new Intent();
+                Bundle b2 = new Bundle();
+                b2.putParcelable("patient", toGive);
+                i2.putExtras(b2);
+                i2.setClass(getApplicationContext(), AddMeeting.class);
+                startActivity(i2);
+
+                return true;
+        }
+        return false;
     }
 }

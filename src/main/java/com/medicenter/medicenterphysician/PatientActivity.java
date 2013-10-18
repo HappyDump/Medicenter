@@ -181,7 +181,7 @@ public class PatientActivity extends Activity {
                 Bundle b3 = new Bundle();
                 b3.putParcelable("patient", toGive2);
                 i3.putExtras(b3);
-                i3.setClass(getApplicationContext(), MeetingListPatientActivity.class);
+                i3.setClass(getApplicationContext(), AddMeeting.class);
                 startActivity(i3);
 
                 return true;

@@ -93,7 +93,7 @@ public class PrescriptionMenuListActivity extends ListActivity {
         // Inflate the menu; this adds items to the action bar if it is present.
 
         MenuInflater inflater = getMenuInflater();
-        inflater.inflate(R.menu.patients_list_menu, menu);
+        inflater.inflate(R.menu.prescription_menu_list_activity_menu, menu);
         return super.onCreateOptionsMenu(menu);
 
     }
