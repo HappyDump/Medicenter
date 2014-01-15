@@ -50,7 +50,7 @@ public class Patient_DoctorListArrayAdapter extends ArrayAdapter<Patient_DataObj
 
         ViewHolder holder = (ViewHolder) rowView.getTag();
         Patient_DataObj p = dataObjs[position];
-        holder.text.setText(p.getFirstName().concat(p.getName()));
+        holder.text.setText(p.getFirstName() + " " + p.getName());
 
         return rowView;
     }

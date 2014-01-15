@@ -18,7 +18,7 @@ import com.google.gson.Gson;
  */
 public class Patient_Menu_Page extends ListActivity {
     Patient_MegaDataObj megaData = new Patient_MegaDataObj();
-    LongRunningGetIO lrg = new LongRunningGetIO(18);
+    LongRunningGetIO lrg;
 
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -49,6 +49,7 @@ public class Patient_Menu_Page extends ListActivity {
 
             public void onClick(View view) {
                 // Launching News Feed Screen
+                lrg = new LongRunningGetIO(18);
                 lrg.execute();
             }
         });
