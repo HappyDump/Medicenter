@@ -19,11 +19,11 @@
                       android:layout_gravity="center">
 
             <!--  Patient List Button -->
-            <Button android:id="@+id/btn_patients_list"
+            <Button android:id="@+id/btn_medecin_list"
                     android:layout_height="wrap_content"
                     android:layout_width="wrap_content"
                     android:drawableTop="@drawable/btn_patients"
-                    android:text="@string/btn_patients"
+                    android:text="Doctor List"
                     android:background="@android:color/transparent">
             </Button>
 
@@ -54,15 +54,22 @@
                       android:layout_marginTop="30dp">
 
             <!--  Prescriptions Button -->
+            <Button android:id="@+id/btn_prescriptions"
+                    android:layout_height="wrap_content"
+                    android:layout_width="wrap_content"
+                    android:drawableTop="@drawable/btn_prescriptions"
+                    android:text="@string/btn_prescriptions"
+                    android:background="@android:color/transparent">
+            </Button>
+            <Button android:id="@+id/btn_sync"
+                    android:layout_height="wrap_content"
+                    android:layout_width="wrap_content"
+                    android:drawableTop="@drawable/sync"
+                    android:text="Sync Data"
+                    android:background="@android:color/transparent" android:layout_gravity="center">
+            </Button>
 
         </LinearLayout>
-        <Button android:id="@+id/btn_prescriptions"
-                android:layout_height="wrap_content"
-                android:layout_width="wrap_content"
-                android:drawableTop="@drawable/btn_prescriptions"
-                android:text="@string/btn_prescriptions"
-                android:background="@android:color/transparent" android:layout_gravity="center">
-        </Button>
     </LinearLayout>
     <ImageView
             android:layout_height="wrap_content"

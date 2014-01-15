@@ -58,8 +58,8 @@ public class Menu_Page extends ListActivity {
 
             public void onClick(View view) {
                 // Launching News Feed Screen
-                Intent i = new Intent(getApplicationContext(), MessagesActivity.class);
-                startActivity(i);
+                //Intent i = new Intent(getApplicationContext(), MessagesActivity.class);
+                // startActivity(i);
             }
         });
 

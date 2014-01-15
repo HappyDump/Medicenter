@@ -26,8 +26,6 @@
                 <category android:name="android.intent.category.LAUNCHER"/>
             </intent-filter>
         </activity>
-        <activity android:name="com.medicenter.medicenterphysician.MessagesActivity"
-                  android:screenOrientation="portrait"></activity>
         <activity android:name="com.medicenter.medicenterphysician.Menu_Page"
                   android:screenOrientation="portrait"></activity>
         <activity android:name="com.medicenter.medicenterphysician.PatientListActivity"
@@ -71,6 +69,20 @@
         <activity android:name="com.medicenter.medicenterphysician.PrescriptionMenuListActivity"
                   android:screenOrientation="portrait"></activity>
         <activity android:name="com.medicenter.medicenterphysician.PrescriptionsActivity"
+                  android:screenOrientation="portrait"></activity>
+        <activity android:name="com.medicenter.medicenterphysician.Patient_Menu_Page"
+                  android:screenOrientation="portrait"></activity>
+        <activity android:name="com.medicenter.medicenterphysician.Patient_DoctorListActivity"
+                  android:screenOrientation="portrait"></activity>
+        <activity android:name="com.medicenter.medicenterphysician.Patient_DoctorSingleActivity"
+                  android:screenOrientation="portrait"></activity>
+        <activity android:name="com.medicenter.medicenterphysician.Patient_MeetingSingleActivity"
+                  android:screenOrientation="portrait"></activity>
+        <activity android:name="com.medicenter.medicenterphysician.Patient_MeetingListActivity"
+                  android:screenOrientation="portrait"></activity>
+        <activity android:name="com.medicenter.medicenterphysician.Patient_PrescriptionListActivity"
+                  android:screenOrientation="portrait"></activity>
+        <activity android:name="com.medicenter.medicenterphysician.Patient_PrescriptionSingleActivity"
                   android:screenOrientation="portrait"></activity>
     </application>
 

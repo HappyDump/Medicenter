@@ -6,9 +6,7 @@
   <component name="AndroidDesignerProfile">
     <option name="fullProfile">
       <profile>
-        <option name="device" value="Nexus S" />
-        <option name="deviceConfiguration" value="Portrait" />
-        <option name="targetHashString" value="android-18" />
+        <option name="device" value="[None]" />
         <option name="theme" value="AppBaseTheme" />
       </profile>
     </option>
@@ -17,105 +15,72 @@
   <component name="AndroidLayoutPreviewToolWindow">
     <option name="state">
       <GlobalState>
-        <option name="device" value="Nexus S" />
-        <option name="dockMode" value="" />
-        <option name="nightMode" value="notnight" />
-        <option name="targetHashString" value="android-18" />
-        <option name="theme" value="Theme.NoTitleBar" />
         <option name="visible" value="false" />
       </GlobalState>
     </option>
   </component>
+  <component name="AndroidLayouts">
+    <shared>
+      <config />
+    </shared>
+  </component>
   <component name="AndroidLogFilters">
-    <option name="TOOL_WINDOW_LOG_LEVEL" value="ERROR" />
+    <option name="TOOL_WINDOW_LOG_LEVEL" value="DEBUG" />
   </component>
   <component name="ChangeListManager">
     <list default="true" id="97063479-3710-48f8-af7e-82c0484c7d74" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/medicenter/medicenterphysician/LongRunningGetIO.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/medicenter/medicenterphysician/Patient_DataObj.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/medicenter/medicenterphysician/Patient_DoctorListActivity.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/medicenter/medicenterphysician/Patient_DoctorListArrayAdapter.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/medicenter/medicenterphysician/Patient_DoctorSingleActivity.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/medicenter/medicenterphysician/Patient_Meeting.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/medicenter/medicenterphysician/Patient_MeetingListActivity.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/medicenter/medicenterphysician/Patient_MeetingListArrayAdapter.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/medicenter/medicenterphysician/Patient_MeetingSingleActivity.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/medicenter/medicenterphysician/Patient_MegaDataObj.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/medicenter/medicenterphysician/Patient_Menu_Page.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/medicenter/medicenterphysician/Patient_Note.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/medicenter/medicenterphysician/Patient_Prescription.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/medicenter/medicenterphysician/Patient_PrescriptionArrayAdapter.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/medicenter/medicenterphysician/Patient_PrescriptionListActivity.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/medicenter/medicenterphysician/Patient_PrescriptionSingleActivity.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/medicenter/medicenterphysician/Patient_WebService.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/medicenter/medicenterphysician/Patient_WebServiceCon.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/gson_2_2_4.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/layout/menu_patient.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/layout/patient_doctorlist_activity.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/layout/patient_doctorlist_item_layout.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/layout/patient_doctorlist_singe_layout.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/layout/patient_meetinglist_activity.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/layout/patient_meetinglist_item_layout.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/layout/patient_meetinglist_single_layout.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/layout/patient_prescriptionlist_activity.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/layout/patient_prescriptionlist_item_layout.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/layout/patient_prescriptionlist_single_layout.xml" />
+      <change type="DELETED" beforePath="C:\Nouveau dossier\Medicenter\Medicenter\.idea\libraries\android_support_v7_appcompat.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\Nouveau dossier\Medicenter\Medicenter\.idea\libraries\asmack_android_17_0_8_3.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\Nouveau dossier\Medicenter\Medicenter\.idea\libraries\ksoap2_android_assembly_3_0_0_jar_with_dependencies.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\Nouveau dossier\Medicenter\Medicenter\src\main\java\com\medicenter\medicenterphysician\MessagesActivity.java" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AndroidManifest.xml" afterPath="$PROJECT_DIR$/AndroidManifest.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/medicenter/medicenterphysician/DatabaseHandler.java" afterPath="$PROJECT_DIR$/src/main/java/com/medicenter/medicenterphysician/DatabaseHandler.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/medicenter/medicenterphysician/MeetingListPatientActivity.java" afterPath="$PROJECT_DIR$/src/main/java/com/medicenter/medicenterphysician/MeetingListPatientActivity.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/medicenter/medicenterphysician/PatientActivity.java" afterPath="$PROJECT_DIR$/src/main/java/com/medicenter/medicenterphysician/PatientActivity.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/medicenter/medicenterphysician/PrescriptionMenuListActivity.java" afterPath="$PROJECT_DIR$/src/main/java/com/medicenter/medicenterphysician/PrescriptionMenuListActivity.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/medicenter/medicenterphysician/PrescriptionsActivity.java" afterPath="$PROJECT_DIR$/src/main/java/com/medicenter/medicenterphysician/PrescriptionsActivity.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/medicenter/medicenterphysician/Login_Activity.java" afterPath="$PROJECT_DIR$/src/main/java/com/medicenter/medicenterphysician/Login_Activity.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/MedicenterPhysician.iml" afterPath="$PROJECT_DIR$/MedicenterPhysician.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/medicenter/medicenterphysician/Menu_Page.java" afterPath="$PROJECT_DIR$/src/main/java/com/medicenter/medicenterphysician/Menu_Page.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/medicenter/medicenterphysician/WebserviceConnectionAdd.java" afterPath="$PROJECT_DIR$/src/main/java/com/medicenter/medicenterphysician/WebserviceConnectionAdd.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/ant.xml" afterPath="$PROJECT_DIR$/.idea/ant.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/compiler.xml" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/layout/menu.xml" afterPath="$PROJECT_DIR$/res/layout/menu.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project.properties" afterPath="$PROJECT_DIR$/project.properties" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="MedicenterPhysician.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="$USER_HOME$/Downloads/TeleSorbonne/src/com/TeleSorbonne/data/RssItem.java" changelist="97063479-3710-48f8-af7e-82c0484c7d74" time="1369359323261" ignored="false" />
-    <file path="/RssItem.java" changelist="97063479-3710-48f8-af7e-82c0484c7d74" time="1369359315669" ignored="false" />
-    <file path="/ListListener.java" changelist="97063479-3710-48f8-af7e-82c0484c7d74" time="1369359200276" ignored="false" />
-    <file path="$USER_HOME$/Downloads/TeleSorbonne/src/com/TeleSorbonne/listener/ListListener.java" changelist="97063479-3710-48f8-af7e-82c0484c7d74" time="1369359202082" ignored="false" />
-    <file path="/Dummy.txt" changelist="97063479-3710-48f8-af7e-82c0484c7d74" time="1382107121425" ignored="false" />
-    <file path="$USER_HOME$/Downloads/TeleSorbonne/res/layout/news_activity_layout.xml" changelist="97063479-3710-48f8-af7e-82c0484c7d74" time="1369392237408" ignored="false" />
-    <file path="/NewsActivity.java" changelist="97063479-3710-48f8-af7e-82c0484c7d74" time="1369390753581" ignored="false" />
-    <file path="$USER_HOME$/Downloads/TeleSorbonne/src/com/TeleSorbonne/activity/NewsActivity.java" changelist="97063479-3710-48f8-af7e-82c0484c7d74" time="1369366580998" ignored="false" />
-    <file path="$USER_HOME$/Downloads/TeleSorbonne/pom.xml" changelist="97063479-3710-48f8-af7e-82c0484c7d74" time="1369390832692" ignored="false" />
-    <file path="$USER_HOME$/Downloads/TeleSorbonne/src/main/java/com/TeleSorbonne/activity/NewsActivity.java" changelist="97063479-3710-48f8-af7e-82c0484c7d74" time="1369391599774" ignored="false" />
-    <file path="/pom.xml" changelist="97063479-3710-48f8-af7e-82c0484c7d74" time="1369379516662" ignored="false" />
-    <file path="$USER_HOME$/Downloads/TeleSorbonne/src/main/java/com/TeleSorbonne/utils/ImageGetter.java" changelist="97063479-3710-48f8-af7e-82c0484c7d74" time="1369374095427" ignored="false" />
-    <file path="/ImageGetter.java" changelist="97063479-3710-48f8-af7e-82c0484c7d74" time="1369374089069" ignored="false" />
-    <file path="/news_activity_layout.xml" changelist="97063479-3710-48f8-af7e-82c0484c7d74" time="1369392237408" ignored="false" />
-    <file path="$USER_HOME$/Downloads/TeleSorbonne/src/main/java/com/TeleSorbonne/utils/RssParseHandler.java" changelist="97063479-3710-48f8-af7e-82c0484c7d74" time="1369377882851" ignored="false" />
-    <file path="/RssParseHandler.java" changelist="97063479-3710-48f8-af7e-82c0484c7d74" time="1369377882115" ignored="false" />
-    <file path="$USER_HOME$/Downloads/TeleSorbonne/src/main/java/com/TeleSorbonne/utils/RssReader.java" changelist="97063479-3710-48f8-af7e-82c0484c7d74" time="1369377306929" ignored="false" />
-    <file path="$USER_HOME$/Downloads/TeleSorbonne/gen/com/TeleSorbonne/R.java" changelist="97063479-3710-48f8-af7e-82c0484c7d74" time="1369379538211" ignored="false" />
-    <file path="$USER_HOME$/Downloads/TeleSorbonne/res/layout/main.xml" changelist="97063479-3710-48f8-af7e-82c0484c7d74" time="1369379899367" ignored="false" />
-    <file path="/main.xml" changelist="97063479-3710-48f8-af7e-82c0484c7d74" time="1369379897942" ignored="false" />
-    <file path="$USER_HOME$/Downloads/TeleSorbonne/res/values/dimens.xml" changelist="97063479-3710-48f8-af7e-82c0484c7d74" time="1369392146274" ignored="false" />
-    <file path="/Patient.java" changelist="97063479-3710-48f8-af7e-82c0484c7d74" time="1378907887627" ignored="false" />
-    <file path="/PatientListActivity.java" changelist="97063479-3710-48f8-af7e-82c0484c7d74" time="1379425484763" ignored="false" />
-    <file path="/DCD.puml" changelist="97063479-3710-48f8-af7e-82c0484c7d74" time="1370020477922" ignored="false" />
-    <file path="/AppointmentActivity.java" changelist="97063479-3710-48f8-af7e-82c0484c7d74" time="1371628441088" ignored="false" />
-    <file path="/DashboardLayout.java" changelist="97063479-3710-48f8-af7e-82c0484c7d74" time="1370024746789" ignored="false" />
-    <file path="/MessagesActivity.java" changelist="97063479-3710-48f8-af7e-82c0484c7d74" time="1377780372400" ignored="false" />
-    <file path="/Mpdb.java" changelist="97063479-3710-48f8-af7e-82c0484c7d74" time="1370024831867" ignored="false" />
-    <file path="$APPLICATION_HOME_DIR$/plugins/android/lib/android.jar!/org/jetbrains/android/android.xsd" changelist="97063479-3710-48f8-af7e-82c0484c7d74" time="1371531809422" ignored="false" />
-    <file path="$APPLICATION_HOME_DIR$/lib/idea.jar!/resources/relaxng.rng" changelist="97063479-3710-48f8-af7e-82c0484c7d74" time="1371531114310" ignored="false" />
-    <file path="$APPLICATION_HOME_DIR$/lib/idea.jar!/standardSchemas/xslt-1_0.xsd" changelist="97063479-3710-48f8-af7e-82c0484c7d74" time="1371531114310" ignored="false" />
-    <file path="$APPLICATION_HOME_DIR$/plugins/xpath/lib/xpath.jar!/org/intellij/lang/xpath/xslt/resources/documentation.xsl" changelist="97063479-3710-48f8-af7e-82c0484c7d74" time="1371531114310" ignored="false" />
-    <file path="$APPLICATION_HOME_DIR$/lib/idea.jar!/standardSchemas/catalog.xsd" changelist="97063479-3710-48f8-af7e-82c0484c7d74" time="1371531114310" ignored="false" />
-    <file path="$APPLICATION_HOME_DIR$/lib/idea.jar!/standardSchemas/XMLSchema.xsd" changelist="97063479-3710-48f8-af7e-82c0484c7d74" time="1371531114311" ignored="false" />
-    <file path="$APPLICATION_HOME_DIR$/lib/idea.jar!/standardSchemas/xhtml1-frameset.xsd" changelist="97063479-3710-48f8-af7e-82c0484c7d74" time="1371531114311" ignored="false" />
-    <file path="$APPLICATION_HOME_DIR$/lib/idea.jar!/standardSchemas/xinclude.xsd" changelist="97063479-3710-48f8-af7e-82c0484c7d74" time="1371531114311" ignored="false" />
-    <file path="$APPLICATION_HOME_DIR$/lib/idea.jar!/standardSchemas/xml.xsd" changelist="97063479-3710-48f8-af7e-82c0484c7d74" time="1371531114311" ignored="false" />
-    <file path="$APPLICATION_HOME_DIR$/plugins/maven/lib/maven.jar!/schemas/maven-4.0.0.xsd" changelist="97063479-3710-48f8-af7e-82c0484c7d74" time="1371531114311" ignored="false" />
-    <file path="$APPLICATION_HOME_DIR$/lib/idea.jar!/standardSchemas/XMLSchema-instance.xsd" changelist="97063479-3710-48f8-af7e-82c0484c7d74" time="1371531114311" ignored="false" />
-    <file path="$APPLICATION_HOME_DIR$/lib/idea.jar!/standardSchemas/xslt-2_0.xsd" changelist="97063479-3710-48f8-af7e-82c0484c7d74" time="1371531114311" ignored="false" />
-    <file path="$APPLICATION_HOME_DIR$/plugins/maven/lib/maven.jar!/schemas/settings-1.0.0.xsd" changelist="97063479-3710-48f8-af7e-82c0484c7d74" time="1371531114311" ignored="false" />
-    <file path="$APPLICATION_HOME_DIR$/plugins/maven/lib/maven.jar!/schemas/profiles-1.0.0.xsd" changelist="97063479-3710-48f8-af7e-82c0484c7d74" time="1371531114311" ignored="false" />
-    <file path="$APPLICATION_HOME_DIR$/lib/idea.jar!/standardSchemas/xhtml1-transitional.xsd" changelist="97063479-3710-48f8-af7e-82c0484c7d74" time="1371531114311" ignored="false" />
-    <file path="$APPLICATION_HOME_DIR$/lib/idea.jar!/standardSchemas/html5/xhtml5.xsd" changelist="97063479-3710-48f8-af7e-82c0484c7d74" time="1371531114311" ignored="false" />
-    <file path="$APPLICATION_HOME_DIR$/plugins/xpath/lib/xpath.jar!/org/intellij/lang/xpath/xslt/resources/documentation.xml" changelist="97063479-3710-48f8-af7e-82c0484c7d74" time="1371531114311" ignored="false" />
-    <file path="$APPLICATION_HOME_DIR$/lib/idea.jar!/standardSchemas/xhtml1-strict.xsd" changelist="97063479-3710-48f8-af7e-82c0484c7d74" time="1371531114311" ignored="false" />
-    <file path="$APPLICATION_HOME_DIR$/plugins/xpath/lib/xpath.jar!/org/intellij/lang/xpath/xslt/resources/xslt-schema.xsd" changelist="97063479-3710-48f8-af7e-82c0484c7d74" time="1371531114311" ignored="false" />
-    <file path="/patients_list_menu.xml" changelist="97063479-3710-48f8-af7e-82c0484c7d74" time="1379420869305" ignored="false" />
-    <file path="/fragment.java" changelist="97063479-3710-48f8-af7e-82c0484c7d74" time="1379412517235" ignored="false" />
-    <file path="/AndroidManifest.xml" changelist="97063479-3710-48f8-af7e-82c0484c7d74" time="1379418164750" ignored="false" />
-    <file path="/AddPatient.java" changelist="97063479-3710-48f8-af7e-82c0484c7d74" time="1379085848014" ignored="false" />
-    <file path="/menu.xml" changelist="97063479-3710-48f8-af7e-82c0484c7d74" time="1371533457040" ignored="false" />
-    <file path="/add_patients.xml" changelist="97063479-3710-48f8-af7e-82c0484c7d74" time="1378912939069" ignored="false" />
-    <file path="/PatientArrayAdapter.java" changelist="97063479-3710-48f8-af7e-82c0484c7d74" time="1372146837209" ignored="false" />
-    <file path="/patients_list_activity_layout.xml" changelist="97063479-3710-48f8-af7e-82c0484c7d74" time="1376996558930" ignored="false" />
-    <file path="/patient_activity_menu.xml" changelist="97063479-3710-48f8-af7e-82c0484c7d74" time="1379429111315" ignored="false" />
-    <file path="/PatientActivity.java" changelist="97063479-3710-48f8-af7e-82c0484c7d74" time="1379343431858" ignored="false" />
-    <file path="/patient_layout.xml" changelist="97063479-3710-48f8-af7e-82c0484c7d74" time="1377419791605" ignored="false" />
-    <file path="/a.java" changelist="97063479-3710-48f8-af7e-82c0484c7d74" time="1377436454547" ignored="false" />
-    <file path="/sample.java" changelist="97063479-3710-48f8-af7e-82c0484c7d74" time="1377436477705" ignored="false" />
-    <file path="/strings.xml" changelist="97063479-3710-48f8-af7e-82c0484c7d74" time="1378904500176" ignored="false" />
-    <file path="/XMPPHandler.java" changelist="97063479-3710-48f8-af7e-82c0484c7d74" time="1377777010620" ignored="false" />
-    <file path="/DatabaseHandler.java" changelist="97063479-3710-48f8-af7e-82c0484c7d74" time="1382105061549" ignored="false" />
-    <file path="/WebserviceHandler.java" changelist="97063479-3710-48f8-af7e-82c0484c7d74" time="1378912479516" ignored="false" />
-    <file path="/PatientBDD.java" changelist="97063479-3710-48f8-af7e-82c0484c7d74" time="1379069543034" ignored="false" />
-    <file path="/WebserviceConnection.java" changelist="97063479-3710-48f8-af7e-82c0484c7d74" time="1379081986234" ignored="false" />
-    <file path="/WebserviceConnectionDelete.java" changelist="97063479-3710-48f8-af7e-82c0484c7d74" time="1379343990535" ignored="false" />
-    <file path="$USER_HOME$/Library/Caches/IdeaIC12/compile-server/medicenterphysician_6a226cbc/targets/java-production/MedicenterPhysician/android/generated_sources/aapt/com/medicenter/medicenterphysician/R.java" changelist="97063479-3710-48f8-af7e-82c0484c7d74" time="1379422450160" ignored="false" />
-    <file path="/styles.xml" changelist="97063479-3710-48f8-af7e-82c0484c7d74" time="1379427571223" ignored="false" />
-    <file path="/Login_Activity.java" changelist="97063479-3710-48f8-af7e-82c0484c7d74" time="1379430447994" ignored="false" />
-    <file path="/meeting_menu_list_activity_menu.xml" changelist="97063479-3710-48f8-af7e-82c0484c7d74" time="1379431771142" ignored="false" />
-    <file path="/MeetingMenuListActivity.java" changelist="97063479-3710-48f8-af7e-82c0484c7d74" time="1379432190622" ignored="false" />
-    <file path="/PrescriptionMenuListActivity.java" changelist="97063479-3710-48f8-af7e-82c0484c7d74" time="1382107009040" ignored="false" />
-    <file path="/prescription_menu_list_activity_menu.xml" changelist="97063479-3710-48f8-af7e-82c0484c7d74" time="1379435305535" ignored="false" />
-    <file path="/MeetingListPatientActivity.java" changelist="97063479-3710-48f8-af7e-82c0484c7d74" time="1382100527543" ignored="false" />
-    <file path="/PrescriptionsActivity.java" changelist="97063479-3710-48f8-af7e-82c0484c7d74" time="1382106594543" ignored="false" />
+    <file path="/Dummy.txt" changelist="97063479-3710-48f8-af7e-82c0484c7d74" time="1389794665225" ignored="false" />
+    <file path="/fragment.java" changelist="97063479-3710-48f8-af7e-82c0484c7d74" time="1389795632442" ignored="false" />
+    <file path="/Patient_DoctorListArrayAdapter.java" changelist="97063479-3710-48f8-af7e-82c0484c7d74" time="1389797379233" ignored="false" />
+    <file path="/Patient_DataObj.java" changelist="97063479-3710-48f8-af7e-82c0484c7d74" time="1389798886149" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -130,6 +95,7 @@
     <disable_hints />
   </component>
   <component name="DebuggerManager">
+    <ui_properties default_suspend_policy="SuspendAll" default_condition_enabled="true" />
     <breakpoint_any default_suspend_policy="SuspendAll" default_condition_enabled="true">
       <breakpoint>
         <option name="NOTIFY_CAUGHT" value="true" />
@@ -137,7 +103,6 @@
         <option name="ENABLED" value="false" />
         <option name="LOG_ENABLED" value="false" />
         <option name="LOG_EXPRESSION_ENABLED" value="false" />
-        <option name="REMOVE_AFTER_HIT" value="false" />
         <option name="SUSPEND_POLICY" value="SuspendAll" />
         <option name="SUSPEND" value="true" />
         <option name="COUNT_FILTER_ENABLED" value="false" />
@@ -154,7 +119,6 @@
         <option name="ENABLED" value="false" />
         <option name="LOG_ENABLED" value="false" />
         <option name="LOG_EXPRESSION_ENABLED" value="false" />
-        <option name="REMOVE_AFTER_HIT" value="false" />
         <option name="SUSPEND_POLICY" value="SuspendAll" />
         <option name="SUSPEND" value="true" />
         <option name="COUNT_FILTER_ENABLED" value="false" />
@@ -166,114 +130,6 @@
         <option name="LOG_MESSAGE" value="" />
       </breakpoint>
     </breakpoint_any>
-    <ui_properties default_suspend_policy="SuspendAll" default_condition_enabled="true" />
-    <line_breakpoints default_suspend_policy="SuspendAll" default_condition_enabled="true">
-      <breakpoint url="file://$PROJECT_DIR$/src/main/java/com/medicenter/medicenterphysician/WebserviceConnectionAdd.java" line="29" class="com.medicenter.medicenterphysician.WebserviceConnectionAdd" package="com.medicenter.medicenterphysician">
-        <option name="ENABLED" value="true" />
-        <option name="LOG_ENABLED" value="false" />
-        <option name="LOG_EXPRESSION_ENABLED" value="false" />
-        <option name="REMOVE_AFTER_HIT" value="false" />
-        <option name="SUSPEND_POLICY" value="SuspendAll" />
-        <option name="SUSPEND" value="true" />
-        <option name="COUNT_FILTER_ENABLED" value="false" />
-        <option name="COUNT_FILTER" value="0" />
-        <option name="CONDITION_ENABLED" value="true" />
-        <option name="CLASS_FILTERS_ENABLED" value="false" />
-        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
-        <option name="CONDITION" value="" />
-        <option name="LOG_MESSAGE" value="" />
-      </breakpoint>
-      <breakpoint url="file://$PROJECT_DIR$/src/main/java/com/medicenter/medicenterphysician/handlers/WebserviceHandler.java" line="51" class="com.medicenter.medicenterphysician.handlers.WebserviceHandler" package="com.medicenter.medicenterphysician.handlers">
-        <option name="ENABLED" value="true" />
-        <option name="LOG_ENABLED" value="false" />
-        <option name="LOG_EXPRESSION_ENABLED" value="false" />
-        <option name="REMOVE_AFTER_HIT" value="false" />
-        <option name="SUSPEND_POLICY" value="SuspendAll" />
-        <option name="SUSPEND" value="true" />
-        <option name="COUNT_FILTER_ENABLED" value="false" />
-        <option name="COUNT_FILTER" value="0" />
-        <option name="CONDITION_ENABLED" value="true" />
-        <option name="CLASS_FILTERS_ENABLED" value="false" />
-        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
-        <option name="CONDITION" value="" />
-        <option name="LOG_MESSAGE" value="" />
-      </breakpoint>
-      <breakpoint url="file://$PROJECT_DIR$/src/main/java/com/medicenter/medicenterphysician/WebserviceConnectionAdd.java" line="26" class="com.medicenter.medicenterphysician.WebserviceConnectionAdd" package="com.medicenter.medicenterphysician">
-        <option name="ENABLED" value="true" />
-        <option name="LOG_ENABLED" value="false" />
-        <option name="LOG_EXPRESSION_ENABLED" value="false" />
-        <option name="REMOVE_AFTER_HIT" value="false" />
-        <option name="SUSPEND_POLICY" value="SuspendAll" />
-        <option name="SUSPEND" value="true" />
-        <option name="COUNT_FILTER_ENABLED" value="false" />
-        <option name="COUNT_FILTER" value="0" />
-        <option name="CONDITION_ENABLED" value="true" />
-        <option name="CLASS_FILTERS_ENABLED" value="false" />
-        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
-        <option name="CONDITION" value="" />
-        <option name="LOG_MESSAGE" value="" />
-      </breakpoint>
-      <breakpoint url="file://$PROJECT_DIR$/src/main/java/com/medicenter/medicenterphysician/WebserviceConnectionDelete.java" line="25" class="com.medicenter.medicenterphysician.WebserviceConnectionDelete" package="com.medicenter.medicenterphysician">
-        <option name="ENABLED" value="true" />
-        <option name="LOG_ENABLED" value="false" />
-        <option name="LOG_EXPRESSION_ENABLED" value="false" />
-        <option name="REMOVE_AFTER_HIT" value="false" />
-        <option name="SUSPEND_POLICY" value="SuspendAll" />
-        <option name="SUSPEND" value="true" />
-        <option name="COUNT_FILTER_ENABLED" value="false" />
-        <option name="COUNT_FILTER" value="0" />
-        <option name="CONDITION_ENABLED" value="true" />
-        <option name="CLASS_FILTERS_ENABLED" value="false" />
-        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
-        <option name="CONDITION" value="" />
-        <option name="LOG_MESSAGE" value="" />
-      </breakpoint>
-      <breakpoint url="file://$PROJECT_DIR$/src/main/java/com/medicenter/medicenterphysician/handlers/WebserviceHandler.java" line="53" class="com.medicenter.medicenterphysician.handlers.WebserviceHandler" package="com.medicenter.medicenterphysician.handlers">
-        <option name="ENABLED" value="true" />
-        <option name="LOG_ENABLED" value="false" />
-        <option name="LOG_EXPRESSION_ENABLED" value="false" />
-        <option name="REMOVE_AFTER_HIT" value="false" />
-        <option name="SUSPEND_POLICY" value="SuspendAll" />
-        <option name="SUSPEND" value="true" />
-        <option name="COUNT_FILTER_ENABLED" value="false" />
-        <option name="COUNT_FILTER" value="0" />
-        <option name="CONDITION_ENABLED" value="true" />
-        <option name="CLASS_FILTERS_ENABLED" value="false" />
-        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
-        <option name="CONDITION" value="" />
-        <option name="LOG_MESSAGE" value="" />
-      </breakpoint>
-      <breakpoint url="file://$PROJECT_DIR$/src/main/java/com/medicenter/medicenterphysician/WebserviceConnectionDelete.java" line="22" class="com.medicenter.medicenterphysician.WebserviceConnectionDelete" package="com.medicenter.medicenterphysician">
-        <option name="ENABLED" value="true" />
-        <option name="LOG_ENABLED" value="false" />
-        <option name="LOG_EXPRESSION_ENABLED" value="false" />
-        <option name="REMOVE_AFTER_HIT" value="false" />
-        <option name="SUSPEND_POLICY" value="SuspendAll" />
-        <option name="SUSPEND" value="true" />
-        <option name="COUNT_FILTER_ENABLED" value="false" />
-        <option name="COUNT_FILTER" value="0" />
-        <option name="CONDITION_ENABLED" value="true" />
-        <option name="CLASS_FILTERS_ENABLED" value="false" />
-        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
-        <option name="CONDITION" value="" />
-        <option name="LOG_MESSAGE" value="" />
-      </breakpoint>
-      <breakpoint url="file://$PROJECT_DIR$/src/main/java/com/medicenter/medicenterphysician/Patient.java" line="64" class="com.medicenter.medicenterphysician.Patient" package="com.medicenter.medicenterphysician">
-        <option name="ENABLED" value="true" />
-        <option name="LOG_ENABLED" value="false" />
-        <option name="LOG_EXPRESSION_ENABLED" value="false" />
-        <option name="REMOVE_AFTER_HIT" value="false" />
-        <option name="SUSPEND_POLICY" value="SuspendAll" />
-        <option name="SUSPEND" value="true" />
-        <option name="COUNT_FILTER_ENABLED" value="false" />
-        <option name="COUNT_FILTER" value="0" />
-        <option name="CONDITION_ENABLED" value="true" />
-        <option name="CLASS_FILTERS_ENABLED" value="false" />
-        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
-        <option name="CONDITION" value="" />
-        <option name="LOG_MESSAGE" value="" />
-      </breakpoint>
-    </line_breakpoints>
     <breakpoint_rules />
     <ui_properties />
   </component>
@@ -283,82 +139,103 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="DatabaseHandler.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/medicenter/medicenterphysician/DatabaseHandler.java">
+      <file leaf-file-name="Patient_Menu_Page.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/medicenter/medicenterphysician/Patient_Menu_Page.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="144" column="0" selection-start="6787" selection-end="6787" vertical-scroll-proportion="0.0">
+            <state line="43" column="39" selection-start="1380" selection-end="1444" vertical-scroll-proportion="0.0">
+              <folding>
+                <element signature="e#1552#1726#0" expanded="true" />
+                <element signature="e#1715#1716#0" expanded="true" />
+                <element signature="e#1816#2443#0" expanded="true" />
+                <element signature="e#2432#2433#0" expanded="true" />
+                <element signature="e#2526#3091#0" expanded="true" />
+                <element signature="e#3080#3081#0" expanded="true" />
+                <element signature="e#3849#4466#0" expanded="true" />
+                <element signature="e#4455#4456#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Patient_DoctorListActivity.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/medicenter/medicenterphysician/Patient_DoctorListActivity.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="65" column="27" selection-start="1880" selection-end="1900" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Mpdb.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/medicenter/medicenterphysician/Mpdb.java">
+      <file leaf-file-name="LongRunningGetIO.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/medicenter/medicenterphysician/LongRunningGetIO.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="11" column="13" selection-start="287" selection-end="287" vertical-scroll-proportion="0.0">
+            <state line="73" column="98" selection-start="1812" selection-end="1812" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Menu_Page.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/medicenter/medicenterphysician/Menu_Page.java">
+      <file leaf-file-name="Patient_DoctorListArrayAdapter.java" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/medicenter/medicenterphysician/Patient_DoctorListArrayAdapter.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="9" column="13" selection-start="206" selection-end="206" vertical-scroll-proportion="0.0">
+            <state line="60" column="29" selection-start="1861" selection-end="1861" vertical-scroll-proportion="0.58219177">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="PrescriptionMenuListActivity.java" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/medicenter/medicenterphysician/PrescriptionMenuListActivity.java">
+      <file leaf-file-name="WebserviceConnectionAdd.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/medicenter/medicenterphysician/WebserviceConnectionAdd.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="110" column="0" selection-start="3875" selection-end="3875" vertical-scroll-proportion="0.8962848">
+            <state line="16" column="13" selection-start="414" selection-end="414" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MeetingListPatientActivity.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/medicenter/medicenterphysician/MeetingListPatientActivity.java">
+      <file leaf-file-name="WebserviceConnectionDelete.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/medicenter/medicenterphysician/WebserviceConnectionDelete.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="113" column="3" selection-start="3936" selection-end="3936" vertical-scroll-proportion="0.0">
+            <state line="16" column="13" selection-start="415" selection-end="415" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="PrescriptionsActivity.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/medicenter/medicenterphysician/PrescriptionsActivity.java">
+      <file leaf-file-name="WebserviceConnectionEdit.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/medicenter/medicenterphysician/WebserviceConnectionEdit.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="53" column="5" selection-start="2056" selection-end="2056" vertical-scroll-proportion="0.0">
+            <state line="16" column="13" selection-start="415" selection-end="415" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="PatientActivity.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/medicenter/medicenterphysician/PatientActivity.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="176" column="51" selection-start="6571" selection-end="6571" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="prescription_menu_list_activity_menu.xml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/res/menu/prescription_menu_list_activity_menu.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="4" column="42" selection-start="134" selection-end="149" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="patient_activity_menu.xml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/res/menu/patient_activity_menu.xml">
+      <file leaf-file-name="edit_patient_layout.xml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/res/layout/edit_patient_layout.xml">
           <provider selected="true" editor-type-id="text-editor">
             <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+          <provider editor-type-id="android-designer">
+            <state />
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Patient_MegaDataObj.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/medicenter/medicenterphysician/Patient_MegaDataObj.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="24" column="25" selection-start="564" selection-end="564" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Patient_DataObj.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/medicenter/medicenterphysician/Patient_DataObj.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="202" column="125" selection-start="4827" selection-end="4827" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -394,22 +271,22 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/res/values/strings.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/com/medicenter/medicenterphysician/Login_Activity.java" />
-        <option value="$PROJECT_DIR$/res/menu/patient_activity_menu.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/com/medicenter/medicenterphysician/Menu_Page.java" />
-        <option value="$PROJECT_DIR$/res/menu/meeting_menu_list_activity_menu.xml" />
-        <option value="$PROJECT_DIR$/../../../Dev SDKS/adt-bundle-mac-x86_64-20130729/sdk/platforms/android-18/android.jar!/android/app/Instrumentation.class" />
-        <option value="$PROJECT_DIR$/src/main/java/com/medicenter/medicenterphysician/MeetingMenuListActivity.java" />
-        <option value="$PROJECT_DIR$/../../../Dev SDKS/adt-bundle-mac-x86_64-20130729/sdk/platforms/android-18/android.jar!/android/os/Looper.class" />
-        <option value="$PROJECT_DIR$/res/menu/prescription_menu_list_activity_menu.xml" />
-        <option value="$PROJECT_DIR$/res/layout/prescription_menu_list_activity.xml" />
-        <option value="$PROJECT_DIR$/res/layout/meeting_list_activity.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/com/medicenter/medicenterphysician/MeetingListPatientActivity.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/medicenter/medicenterphysician/PatientActivity.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/medicenter/medicenterphysician/Patient_Meeting.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/medicenter/medicenterphysician/Patient_MeetingListActivity.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/medicenter/medicenterphysician/Patient_MeetingSingleActivity.java" />
+        <option value="$PROJECT_DIR$/res/layout/patient_meetinglist_single_layout.xml" />
+        <option value="$PROJECT_DIR$/res/layout/patient_prescriptionlist_activity.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/medicenter/medicenterphysician/Patient_PrescriptionListActivity.java" />
+        <option value="$PROJECT_DIR$/res/layout/patient_prescriptionlist_item_layout.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/medicenter/medicenterphysician/Patient_PrescriptionArrayAdapter.java" />
+        <option value="$PROJECT_DIR$/res/layout/patient_prescriptionlist_single_layout.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/medicenter/medicenterphysician/Patient_PrescriptionSingleActivity.java" />
+        <option value="$PROJECT_DIR$/AndroidManifest.xml" />
         <option value="$PROJECT_DIR$/src/main/java/com/medicenter/medicenterphysician/DatabaseHandler.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/medicenter/medicenterphysician/PrescriptionsActivity.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/medicenter/medicenterphysician/PrescriptionMenuListActivity.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/medicenter/medicenterphysician/Patient_Menu_Page.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/medicenter/medicenterphysician/LongRunningGetIO.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/medicenter/medicenterphysician/Patient_DataObj.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/medicenter/medicenterphysician/Patient_DoctorListArrayAdapter.java" />
       </list>
     </option>
   </component>
@@ -435,10 +312,10 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="34" />
-    <option name="y" value="22" />
-    <option name="width" value="1380" />
-    <option name="height" value="815" />
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1616" />
+    <option name="height" value="876" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -515,6 +392,7 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
@@ -530,7 +408,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="MedicenterPhysician" />
+              <option name="myItemId" value="Medicenter" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -540,44 +418,38 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="MedicenterPhysician" />
+              <option name="myItemId" value="Medicenter" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="res" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="MedicenterPhysician" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="MedicenterPhysician" />
+              <option name="myItemId" value="src" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="res" />
+              <option name="myItemId" value="main" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="menu" />
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="medicenterphysician" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="project.structure.last.edited" value="Libraries" />
+    <property name="last_directory_selection" value="$PROJECT_DIR$/src/main/java/com/medicenter/medicenterphysician" />
+    <property name="project.structure.last.edited" value="Modules" />
     <property name="GoToFile.includeJavaFiles" value="false" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="Repository.Attach.JavaDocs" value="true" />
-    <property name="options.lastSelected" value="editor" />
+    <property name="options.lastSelected" value="reference.projectsettings.compiler.javacompiler" />
     <property name="MemberChooser.sorted" value="false" />
     <property name="recentsLimit" value="5" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
@@ -598,7 +470,11 @@
     <key name="CreateClassDialog.RecentsKey">
       <recent name="com.medicenter.medicenterphysician" />
     </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="com.medicenter.medicenterphysician" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\tom\Project\Medicenter\res\drawable" />
       <recent name="$PROJECT_DIR$/res/drawable-hdpi" />
       <recent name="$PROJECT_DIR$/res/drawable-mdpi" />
       <recent name="$PROJECT_DIR$/res/drawable-xhdpi" />
@@ -615,7 +491,6 @@
       <option name="PACKAGE_NAME" value="" />
       <option name="TARGET_SELECTION_MODE" value="USB_DEVICE" />
       <option name="PREFERRED_AVD" value="" />
-      <option name="USE_COMMAND_LINE" value="true" />
       <option name="COMMAND_LINE" value="" />
       <option name="WIPE_USER_DATA" value="false" />
       <option name="DISABLE_BOOT_ANIMATION" value="false" />
@@ -641,7 +516,6 @@
       <option name="PACKAGE_NAME" value="" />
       <option name="TARGET_SELECTION_MODE" value="EMULATOR" />
       <option name="PREFERRED_AVD" value="" />
-      <option name="USE_COMMAND_LINE" value="true" />
       <option name="COMMAND_LINE" value="" />
       <option name="WIPE_USER_DATA" value="false" />
       <option name="DISABLE_BOOT_ANIMATION" value="false" />
@@ -656,6 +530,19 @@
       <option name="SHMEM_ADDRESS" value="javadebug" />
       <option name="HOST" value="localhost" />
       <option name="PORT" value="5005" />
+      <method />
+    </configuration>
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <module name="" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="HTML_FILE_NAME" />
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <option name="VM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
       <method />
     </configuration>
     <configuration default="true" type="TestNG" factoryName="TestNG">
@@ -683,19 +570,6 @@
       <envs />
       <properties />
       <listeners />
-      <method />
-    </configuration>
-    <configuration default="true" type="Applet" factoryName="Applet">
-      <module name="" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="HTML_FILE_NAME" />
-      <option name="HTML_USED" value="false" />
-      <option name="WIDTH" value="400" />
-      <option name="HEIGHT" value="300" />
-      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
-      <option name="VM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
       <method />
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
@@ -739,7 +613,6 @@
       <option name="DEPLOY" value="true" />
       <option name="TARGET_SELECTION_MODE" value="EMULATOR" />
       <option name="PREFERRED_AVD" value="" />
-      <option name="USE_COMMAND_LINE" value="true" />
       <option name="COMMAND_LINE" value="" />
       <option name="WIPE_USER_DATA" value="false" />
       <option name="DISABLE_BOOT_ANIMATION" value="false" />
@@ -755,7 +628,6 @@
       <option name="DEPLOY" value="true" />
       <option name="TARGET_SELECTION_MODE" value="USB_DEVICE" />
       <option name="PREFERRED_AVD" value="" />
-      <option name="USE_COMMAND_LINE" value="true" />
       <option name="COMMAND_LINE" value="" />
       <option name="WIPE_USER_DATA" value="false" />
       <option name="DISABLE_BOOT_ANIMATION" value="false" />
@@ -772,8 +644,7 @@
       <option name="MODE" value="default_activity" />
       <option name="DEPLOY" value="true" />
       <option name="TARGET_SELECTION_MODE" value="EMULATOR" />
-      <option name="PREFERRED_AVD" value="NexusS" />
-      <option name="USE_COMMAND_LINE" value="true" />
+      <option name="PREFERRED_AVD" value="MyAvd0" />
       <option name="COMMAND_LINE" value="" />
       <option name="WIPE_USER_DATA" value="false" />
       <option name="DISABLE_BOOT_ANIMATION" value="false" />
@@ -800,7 +671,7 @@
     </configuration>
   </component>
   <component name="ShelveChangesManager" show_recycled="false" />
-  <component name="SvnConfiguration" maxAnnotateRevisions="500" myUseAcceleration="nothing" myAutoUpdateAfterCommit="false" cleanupOnStartRun="false" SSL_PROTOCOLS="sslv3">
+  <component name="SvnConfiguration" maxAnnotateRevisions="500" myUseAcceleration="nothing" myAutoUpdateAfterCommit="false" cleanupOnStartRun="false">
     <option name="USER" value="" />
     <option name="PASSWORD" value="" />
     <option name="mySSHConnectionTimeout" value="30000" />
@@ -810,6 +681,7 @@
     <option name="MERGE_DIFF_USE_ANCESTRY" value="true" />
     <option name="UPDATE_LOCK_ON_DEMAND" value="false" />
     <option name="IGNORE_SPACES_IN_MERGE" value="false" />
+    <option name="DETECT_NESTED_COPIES" value="true" />
     <option name="CHECK_NESTED_FOR_QUICK_MERGE" value="false" />
     <option name="IGNORE_SPACES_IN_ANNOTATE" value="true" />
     <option name="SHOW_MERGE_SOURCES_IN_ANNOTATE" value="true" />
@@ -895,37 +767,45 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="34" y="22" width="1380" height="815" extended-state="0" />
+    <frame x="-8" y="-8" width="1616" height="876" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
+      <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.37697843" sideWeight="0.7563718" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3971223" sideWeight="0.24362819" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2496361" sideWeight="0.21891892" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Android" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32972974" sideWeight="0.4970888" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3751634" sideWeight="0.6027778" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32545203" sideWeight="0.21235521" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2496361" sideWeight="0.21891892" order="3" side_tool="true" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32127956" sideWeight="0.497426" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Android" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32545203" sideWeight="0.7831403" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32962447" sideWeight="0.4970888" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2496361" sideWeight="0.21891892" order="1" side_tool="true" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33433282" sideWeight="0.6748201" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33433282" sideWeight="0.6748201" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.23988006" sideWeight="0.6230216" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32805756" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="PMD" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32972974" sideWeight="0.49126637" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32908547" sideWeight="0.6230216" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="simpleUML" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32896653" sideWeight="0.671159" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.23809524" sideWeight="0.674548" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32267037" sideWeight="0.484556" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="PMD" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32972974" sideWeight="0.49126637" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32882884" sideWeight="0.67315716" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Build Variants" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.23819445" sideWeight="0.44537815" order="3" side_tool="true" content_ui="tabs" />
+      <window_info id="simpleUML" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32896653" sideWeight="0.671159" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3265766" sideWeight="0.6230216" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32561132" sideWeight="0.67315716" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32944608" sideWeight="0.6014388" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32944608" sideWeight="0.6014388" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3294964" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3266187" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="PlantUML" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32969433" sideWeight="0.671159" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32823366" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="PlantUML" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32969433" sideWeight="0.671159" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
+  </component>
+  <component name="Vcs.Log.UiProperties">
+    <option name="RECENTLY_FILTERED_USERS">
+      <collection />
+    </option>
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
@@ -953,7 +833,7 @@
     <option name="SHOW_ONLY_CHANGED_IN_SELECTION_DIFF" value="true" />
     <option name="CHECK_COMMIT_MESSAGE_SPELLING" value="true" />
     <option name="DEFAULT_PATCH_EXTENSION" value="patch" />
-    <option name="SHORT_DIFF_HORIZONTALLY" value="true" />
+    <option name="SHORT_DIFF_HORISONTALLY" value="true" />
     <option name="SHORT_DIFF_EXTRA_LINES" value="2" />
     <option name="SOFT_WRAPS_IN_SHORT_DIFF" value="true" />
     <option name="INCLUDE_TEXT_INTO_PATCH" value="false" />
@@ -963,10 +843,6 @@
     <option name="SHOW_DIRTY_RECURSIVELY" value="false" />
     <option name="LIMIT_HISTORY" value="true" />
     <option name="MAXIMUM_HISTORY_ROWS" value="1000" />
-    <option name="UPDATE_FILTER_SCOPE_NAME" />
-    <option name="USE_COMMIT_MESSAGE_MARGIN" value="false" />
-    <option name="COMMIT_MESSAGE_MARGIN_SIZE" value="72" />
-    <option name="WRAP_WHEN_TYPING_REACHES_RIGHT_MARGIN" value="false" />
     <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="false" />
     <option name="LAST_COMMIT_MESSAGE" value="Modif graphique partie pratitien." />
@@ -980,7 +856,6 @@
     <option name="ACTIVE_VCS_NAME" />
     <option name="UPDATE_GROUP_BY_PACKAGES" value="false" />
     <option name="UPDATE_GROUP_BY_CHANGELIST" value="false" />
-    <option name="UPDATE_FILTER_BY_SCOPE" value="false" />
     <option name="SHOW_FILE_HISTORY_AS_TREE" value="false" />
     <option name="FILE_HISTORY_SPLITTER_PROPORTION" value="0.6" />
     <MESSAGE value="Recreate repo + add messaging with asmack (gtalk)" />
@@ -1001,105 +876,122 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://$PROJECT_DIR$/../../../Dev SDKS/adt-bundle-mac-x86_64-20130729/sdk/platforms/android-18/android.jar!/android/database/sqlite/SQLiteClosable.class">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/medicenter/medicenterphysician/Login_Activity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="27" column="16" selection-start="744" selection-end="744" vertical-scroll-proportion="0.0" />
+        <state line="15" column="13" selection-start="402" selection-end="402" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
-    <entry file="jar://$PROJECT_DIR$/../../../Dev SDKS/adt-bundle-mac-x86_64-20130729/sdk/platforms/android-18/android.jar!/android/database/CursorWindow.class">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/medicenter/medicenterphysician/Menu_Page.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="67" column="28" selection-start="1882" selection-end="1882" vertical-scroll-proportion="0.33246073" />
+        <state line="19" column="24" selection-start="564" selection-end="564" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/medicenter/medicenterphysician/Prescription.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/medicenter/medicenterphysician/Patient_PrescriptionListActivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="13" selection-start="265" selection-end="265" vertical-scroll-proportion="0.0" />
+        <state line="32" column="21" selection-start="1102" selection-end="1102" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/medicenter/medicenterphysician/Patient.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/medicenter/medicenterphysician/Patient_Prescription.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="101" column="126" selection-start="3105" selection-end="3105" vertical-scroll-proportion="-0.45287958">
+        <state line="78" column="0" selection-start="1628" selection-end="1628" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AndroidManifest.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="84" column="101" selection-start="5590" selection-end="5590" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/medicenter/medicenterphysician/DatabaseHandler.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="144" column="0" selection-start="6787" selection-end="6787" vertical-scroll-proportion="0.0">
+        <state line="20" column="50" selection-start="553" selection-end="553" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/res/layout/meeting_list_activity.xml">
-      <provider editor-type-id="android-designer">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/medicenter/medicenterphysician/MeetingMenuAdapter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="51" column="0" selection-start="1739" selection-end="1739" vertical-scroll-proportion="1.6296296" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/medicenter/medicenterphysician/Mpdb.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="13" selection-start="287" selection-end="287" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/medicenter/medicenterphysician/Menu_Page.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="13" selection-start="206" selection-end="206" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/res/menu/patient_activity_menu.xml">
+    <entry file="file://$PROJECT_DIR$/res/layout/edit_patient_layout.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
+      <provider editor-type-id="android-designer">
+        <state />
+      </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/medicenter/medicenterphysician/PatientActivity.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/medicenter/medicenterphysician/WebserviceConnectionAdd.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="176" column="51" selection-start="6571" selection-end="6571" vertical-scroll-proportion="0.0">
+        <state line="16" column="13" selection-start="414" selection-end="414" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/medicenter/medicenterphysician/PrescriptionsActivity.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/medicenter/medicenterphysician/WebserviceConnectionDelete.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="53" column="5" selection-start="2056" selection-end="2056" vertical-scroll-proportion="0.0">
+        <state line="16" column="13" selection-start="415" selection-end="415" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/res/menu/prescription_menu_list_activity_menu.xml">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/medicenter/medicenterphysician/WebserviceConnectionEdit.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="42" selection-start="134" selection-end="149" vertical-scroll-proportion="0.0">
+        <state line="16" column="13" selection-start="415" selection-end="415" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/medicenter/medicenterphysician/MeetingListPatientActivity.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/medicenter/medicenterphysician/Patient_DoctorListActivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="113" column="3" selection-start="3936" selection-end="3936" vertical-scroll-proportion="0.0">
+        <state line="65" column="27" selection-start="1880" selection-end="1900" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="jar://$PROJECT_DIR$/../../../Dev SDKS/adt-bundle-mac-x86_64-20130729/sdk/platforms/android-18/android.jar!/android/app/Activity.class">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/medicenter/medicenterphysician/Patient_Menu_Page.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="179" column="19" selection-start="7248" selection-end="7248" vertical-scroll-proportion="0.33246073" />
+        <state line="43" column="39" selection-start="1380" selection-end="1444" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="e#1552#1726#0" expanded="true" />
+            <element signature="e#1715#1716#0" expanded="true" />
+            <element signature="e#1816#2443#0" expanded="true" />
+            <element signature="e#2432#2433#0" expanded="true" />
+            <element signature="e#2526#3091#0" expanded="true" />
+            <element signature="e#3080#3081#0" expanded="true" />
+            <element signature="e#3849#4466#0" expanded="true" />
+            <element signature="e#4455#4456#0" expanded="true" />
+          </folding>
+        </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/medicenter/medicenterphysician/PrescriptionMenuListActivity.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/medicenter/medicenterphysician/LongRunningGetIO.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="110" column="0" selection-start="3875" selection-end="3875" vertical-scroll-proportion="0.8962848">
+        <state line="73" column="98" selection-start="1812" selection-end="1812" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/medicenter/medicenterphysician/Patient_DataObj.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="202" column="125" selection-start="4827" selection-end="4827" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/medicenter/medicenterphysician/Patient_MegaDataObj.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="24" column="25" selection-start="564" selection-end="564" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/medicenter/medicenterphysician/Patient_DoctorListArrayAdapter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="60" column="29" selection-start="1861" selection-end="1861" vertical-scroll-proportion="0.58219177">
           <folding />
         </state>
       </provider>
@@ -1180,7 +1072,7 @@
       </state>
       <state key="ProjectLibrariesConfigurable.UI">
         <settings>
-          <last-edited>android-support-v7-appcompat</last-edited>
+          <last-edited>gson-2.2.4</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>

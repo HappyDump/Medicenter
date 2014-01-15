@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:orientation="vertical"
+        >
+    <ImageView android:id="@+id/headerImg" android:layout_alignParentTop="true" android:src="@drawable/header"
+               android:layout_height="wrap_content" android:layout_width="wrap_content"
+               android:adjustViewBounds="true"/>
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/headerImg"
+                    android:background="@drawable/patient_details_page_design">
+
+        <!-- Name -->
+        <TextView android:id="@+id/createdBy"
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:layout_alignParentTop="true"
+                  android:layout_alignParentLeft="true"
+                  android:textSize="12dip"
+                  android:paddingLeft="12dip"
+                  android:text="Created by :"
+                  android:layout_marginTop="130dip"
+                  android:textColor="#000000"
+                />
+
+        <TextView android:id="@+id/dateBegin"
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:layout_below="@id/createdBy"
+                  android:textSize="12dip"
+                  android:paddingLeft="12dip"
+                  android:textColor="#000000"
+                  android:text="Date Begin : "
+                />
+        <TextView android:id="@+id/dateEnd"
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:layout_below="@id/dateBegin"
+                  android:textSize="12dip"
+                  android:paddingLeft="12dip"
+                  android:textColor="#000000"
+                  android:text="Date End : "
+                />
+        <TextView android:id="@+id/reason"
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:layout_below="@id/dateEnd"
+                  android:textSize="12dip"
+                  android:paddingLeft="12dip"
+                  android:textColor="#000000"
+                  android:text="Reason : "
+                />
+        <TextView android:id="@+id/status"
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:layout_below="@id/reason"
+                  android:textSize="12dip"
+                  android:paddingLeft="12dip"
+                  android:textColor="#000000"
+                  android:text="Status : "
+                />
+
+
+        <ImageView
+                android:id="@+id/icon"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentRight="true"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_launcher"
+                android:layout_marginTop="60dip"
+                android:layout_marginRight="60dip"
+                android:textColor="#000000"
+                />
+
+        <TextView android:id="@+id/createdByFill"
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:textSize="12dip"
+                  android:paddingLeft="12dip"
+                  android:text="createdBy to fill"
+                  android:textColor="#000000"
+                  android:layout_toRightOf="@+id/createdBy"
+                  android:layout_alignParentTop="false" android:layout_alignParentLeft="false"
+                  android:layout_alignParentBottom="false" android:layout_above="@+id/dateBegin"/>
+        <TextView android:id="@+id/dateBeginFill"
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:textSize="12dip"
+                  android:paddingLeft="12dip"
+                  android:text="dateBegin to fill"
+                  android:layout_below="@+id/createdByFill"
+                  android:textColor="#000000"
+                  android:layout_toRightOf="@+id/dateBegin"/>
+        <TextView android:id="@+id/dateEndFill"
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:textSize="12dip"
+                  android:paddingLeft="12dip"
+                  android:text="dateEnd to fill"
+                  android:layout_below="@+id/dateBeginFill"
+                  android:textColor="#000000"
+                  android:layout_toRightOf="@+id/dateEnd"/>
+        <TextView android:id="@+id/reasonFill"
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:textSize="12dip"
+                  android:paddingLeft="12dip"
+                  android:text="reason to fill"
+                  android:layout_below="@+id/dateEndFill"
+                  android:textColor="#000000"
+                  android:layout_toRightOf="@+id/reason"/>
+        <TextView android:id="@+id/statusFill"
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:textSize="12dip"
+                  android:paddingLeft="12dip"
+                  android:text="name to fill"
+                  android:layout_below="@+id/reasonFill"
+                  android:textColor="#000000"
+                  android:layout_toRightOf="@+id/status"/>
+    </RelativeLayout>
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:orientation="horizontal"
+                  android:layout_alignParentBottom="true"
+                  android:id="@+id/tabs"
+            >
+
+    </LinearLayout>
+</LinearLayout>
