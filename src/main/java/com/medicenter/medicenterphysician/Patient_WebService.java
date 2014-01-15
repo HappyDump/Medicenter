@@ -21,7 +21,7 @@ import java.io.InputStreamReader;
  */
 public class Patient_WebService {
     int id;
-    String url = "http://medicenter.px751.fr/ws/patients/get-patient-data/id/2";
+    String url = "http://medicenter.px751.fr/ws/patients/get-patient-   data/id/2";
 
     Patient_WebService(int id) {
         this.id = id;

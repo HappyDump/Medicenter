@@ -191,15 +191,15 @@ public class Patient_DataObj implements Parcelable {
         this.id = source.readInt();
         this.mail = source.readString();
         this.meetings = (Patient_Meeting[]) source.createTypedArray(Patient_Meeting.CREATOR);
-        this.name = source.readString();
+        this.name = "";
         this.notes = (Patient_Note[]) source.createTypedArray(Patient_Note.CREATOR);
-        this.pc = source.readString();
-        this.phone = source.readString();
+        this.pc = "";
+        this.phone = "";
         this.prescriptions = (Patient_Prescription[]) source.createTypedArray(Patient_Prescription.CREATOR);
-        this.speciality = source.readString();
-        this.street1 = source.readString();
-        this.street2 = source.readString();
-        this.town = source.readString();
+        this.speciality = "";
+        this.street1 = "";
+        this.street2 = "";
+        this.town = "";
     }
 
     public Patient_DataObj(Patient_DataObj dataObj) {

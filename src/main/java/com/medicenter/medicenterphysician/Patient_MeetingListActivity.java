@@ -3,6 +3,8 @@ package com.medicenter.medicenterphysician;
 import android.app.ListActivity;
 import android.content.Intent;
 import android.os.Bundle;
+import android.view.Menu;
+import android.view.MenuItem;
 import android.view.View;
 import android.widget.ImageView;
 import android.widget.ListView;
@@ -79,5 +81,21 @@ public class Patient_MeetingListActivity extends ListActivity {
         i.putExtras(b);
         i.setClass(this, Patient_MeetingSingleActivity.class);
         startActivity(i);
+    }
+
+    public boolean onCreateOptionsMenu(Menu menu) {
+        // Inflate the menu; this adds items to the action bar if it is present.
+        getMenuInflater().inflate(R.menu.add_meeting_menu, menu);
+        return true;
+    }
+
+    public boolean onOptionsItemSelected(MenuItem item) {
+        switch (item.getItemId()) {
+            case R.id.meeting_settings:
+                System.out.println("Clicked on add.");
+                return true;
+            default:
+                return super.onOptionsItemSelected(item);
+        }
     }
 }

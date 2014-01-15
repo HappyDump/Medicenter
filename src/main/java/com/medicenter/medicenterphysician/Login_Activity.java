@@ -64,6 +64,10 @@ public class Login_Activity extends Activity {
                     password.getText().toString().equals("patient")) {
                 Intent i = new Intent(getApplicationContext(), Patient_Menu_Page.class);
                 startActivity(i);
+            } else if (username.getText().toString().equals("patient") &&
+                    password.getText().toString().equals("patient")) {
+                Intent i = new Intent(getApplicationContext(), Patient_Menu_Page.class);
+                startActivity(i);
             } else {
                 Toast.makeText(getApplicationContext(), "Error! Bad Login or Password.", Toast.LENGTH_SHORT).show();
                 System.out.println("---ELSE---");
