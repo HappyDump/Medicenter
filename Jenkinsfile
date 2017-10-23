@@ -1,7 +1,8 @@
 pipeline {
   agent {
     docker {
-      image 'maven'
+      image 'maven:3.5.0-JDK8'
+      args '-v /Users/mathieu/.m2/root:/.m2'
     }
     
   }
@@ -16,7 +17,7 @@ mvn clean'''
     }
     stage('Build') {
       steps {
-        sh 'mvn install'
+        sh 'mvn -Dmaven.test.failure.ignore=true install'
       }
     }
   }
