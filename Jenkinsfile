@@ -1,9 +1,9 @@
 pipeline {
-  agent any
+  agent none
   stages {
     stage('Build') {
       steps {
-        build(job: 'sh \'mvn -B -DskipTests clean package\'', wait: true)
+        sh 'sh \'mvn -B -DskipTests clean package\''
       }
     }
   }
